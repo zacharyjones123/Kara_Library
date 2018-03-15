@@ -1,5 +1,6 @@
 package main;
 
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 /**
@@ -16,7 +17,9 @@ import java.util.Scanner;
 
 public class Driver {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws FileNotFoundException {
+		
+		Library lib = new Library();
 		//Print out a hello message
 		
 		System.out.println("Hello Kara\nWelcome to Your Library");
@@ -34,12 +37,16 @@ public class Driver {
 		
 			case 1 : 
 				//View All Books currently available
+				lib.viewBooks();
 				break;
 			case 2:
 				//Add a new book to the list
+				Book b = new Book();
+				lib.addBook(b);
 				break;
 			case 3:
 				//View all of the current students
+				lib.viewStudents();
 				break;
 			default: 
 				System.out.println("Please Enter A Valid Number");

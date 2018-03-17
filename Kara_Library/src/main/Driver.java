@@ -27,6 +27,7 @@ public class Driver {
 		System.out.println("(1) View All Books");
 		System.out.println("(2) Add a New Book");
 		System.out.println("(3) View Current Students");
+		System.out.println("(4) Add a New Student");
 		System.out.print("Type Number: ");
 		
 		//Now, Kara will be prompted to see different criteria about her library
@@ -37,6 +38,7 @@ public class Driver {
 		
 			case 1 : 
 				//View All Books currently available
+				//TODO: Need to get the data from the user
 				lib.viewBooks();
 				break;
 			case 2:
@@ -48,6 +50,11 @@ public class Driver {
 				//View all of the current students
 				lib.viewStudents();
 				break;
+			case 4:
+				//Add a new Student to the list
+				//TODO: Need to get the data from the user
+				Student s = new Student();
+				lib.addStudent(s);
 			default: 
 				System.out.println("Please Enter A Valid Number");
 				break;

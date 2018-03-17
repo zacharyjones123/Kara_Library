@@ -49,6 +49,10 @@ public class Library {
 		books.add(b);
 	}
 	
+	public void addStudent(Student s) {
+		students.add(s);
+	}
+	
 	//Getters
 	public ArrayList<Book> getBooks() {
 		return books;

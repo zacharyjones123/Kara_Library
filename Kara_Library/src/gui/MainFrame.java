@@ -306,8 +306,9 @@ public class MainFrame {
             	
             	
             	//addComponentsToPane(frame.getContentPane(), library);
+            	frame.dispose();
+            	bookFrame.dispose();
             	createAndShowGUI();
-            	bookFrame.dispatchEvent(new WindowEvent(bookFrame, WindowEvent.WINDOW_CLOSING));
             	
 
             }

@@ -17,6 +17,7 @@ import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
+import java.awt.event.WindowEvent;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
@@ -48,42 +49,58 @@ import main.Library;
 
 public class MainFrame {
 	
-	static Library library = null;
+	static int width_main_frame = 500;
+	static int length_main_frame = 1000;
+	static int width_addBook_frame = 500;
+	static int length_addBook_frame = 500;
+	
+	static Library library = new Library();
 	
 	final static boolean shouldFill = true;
     final static boolean shouldWeightX = true;
     final static boolean RIGHT_TO_LEFT = false;
+    
+    static JLabel lbl_title = new JLabel("Title: ");
+    static JTextField txt_title = new JTextField();;
+    static JLabel lbl_author_last_name = new JLabel("Author Last Name: ");
+    static JTextField txt_author_last_name = new JTextField();;
+    static JLabel lbl_author_first_name = new JLabel("Author First Name: ");
+    static JTextField txt_author_first_name = new JTextField();;
+    static JLabel lbl_genre = new JLabel("Genre: ");
+    static JTextField txt_genre = new JTextField();;
+    static JLabel lbl_isbn = new JLabel("ISBN: ");
+    static JTextField txt_isbn = new JTextField();;
+    static JLabel lbl_grade_level = new JLabel("Grade Level: ");
+    static JTextField txt_grade_level = new JTextField();;
+    static JLabel lbl_description = new JLabel("Description: ");
+    static JTextField txt_description = new JTextField();
+    static JButton btn_update = new JButton("Update");
+    
+    static JFrame frame;
+    static JFrame bookFrame;
 	
 	private static void createAndShowGUI() {
-		Library library = null;
-		try {
-			library = new Library();
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
 		//Create and set up the window.
-        JFrame frame = new JFrame("Kara's Library");
+        frame = new JFrame("Kara's Library");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setIconImage(Toolkit.getDefaultToolkit().getImage("images/icons/apple.png"));
         frame.setCursor(new Cursor(Cursor.HAND_CURSOR));
         //frame.setUndecorated(true);
         
         //Set The MenuBar
-        setMenuBar(frame);
+        setMenuBar(frame, library);
  
         //Set up the content pane.
         addComponentsToPane(frame.getContentPane(), library);
  
         //Display the window.
         frame.pack();
-        frame.setSize(1000, 500);
+        frame.setSize(length_main_frame, width_main_frame);
         frame.setLocationRelativeTo(null); //To make center
         frame.setVisible(true);
     }
 	
-	public static void setMenuBar(JFrame frame) {
+	public static void setMenuBar(JFrame frame, Library library) {
 		//-------------------------------------------------------------------------
 				//-------------------------------------------------------------------------
 		        //Create the menu bar.  Make it have a green background.
@@ -113,20 +130,20 @@ public class MainFrame {
 		            @Override
 		            public void actionPerformed(ActionEvent e) {
 		        		//Create and set up the window.
-		                JFrame frame = new JFrame("Add A Book");
-		                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		                frame.setIconImage(Toolkit.getDefaultToolkit().getImage("images/icons/book.png"));
-		                frame.setCursor(new Cursor(Cursor.HAND_CURSOR));
+		                bookFrame = new JFrame("Add A Book");
+		                bookFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		                bookFrame.setIconImage(Toolkit.getDefaultToolkit().getImage("images/icons/book.png"));
+		                bookFrame.setCursor(new Cursor(Cursor.HAND_CURSOR));
 		                //frame.setUndecorated(true);
 		                
 		              //Set up the content pane.
-		                addComponentsToPane(frame.getContentPane());
+		                addComponentsToPaneBook(bookFrame.getContentPane(), library);
 		         
 		                //Display the window.
-		                frame.pack();
-		                frame.setSize(500, 500);
-		                frame.setLocationRelativeTo(null); //To make center
-		                frame.setVisible(true);
+		                bookFrame.pack();
+		                bookFrame.setSize(length_addBook_frame, width_addBook_frame);
+		                bookFrame.setLocationRelativeTo(null); //To make center
+		                bookFrame.setVisible(true);
 
 		            }
 		        });
@@ -265,34 +282,51 @@ public class MainFrame {
     
     }
 	
-	public static void addComponentsToPane(Container pane) {
+	public static void addComponentsToPaneBook(Container pane, Library library) {
 		JPanel panel = new JPanel();
 		panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
 		
-		panel.add(makeNewField("Name"));
-		panel.add(makeNewField("Author Name Name"));
-		panel.add(makeNewField("Author Last Name"));
-		panel.add(makeNewField("Genre"));
-		panel.add(makeNewField("ISBN"));
-		panel.add(makeNewField("Grade Level"));
-		panel.add(makeNewField("Description"));
+		panel.add(makeNewField("Name", lbl_title, txt_title));
+		panel.add(makeNewField("Author Name Name", lbl_author_first_name, txt_author_first_name));
+		panel.add(makeNewField("Author Last Name", lbl_author_last_name, txt_author_last_name));
+		panel.add(makeNewField("Genre", lbl_genre, txt_genre));
+		panel.add(makeNewField("ISBN", lbl_isbn, txt_isbn));
+		panel.add(makeNewField("Grade Level", lbl_grade_level, txt_grade_level));
+		panel.add(makeNewField("Description", lbl_description, txt_description));
+		btn_update.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+            	//Check to see if correct book
+            	//TODO: Check the book
+            	
+            	//Add the book
+            	library.addBook(new Book(txt_title.getText(), txt_author_last_name.getText(),
+            					txt_author_first_name.getText(), txt_genre.getText(), txt_isbn.getText(),
+            					txt_grade_level.getText(), txt_description.getText()));
+            	
+            	
+            	//addComponentsToPane(frame.getContentPane(), library);
+            	createAndShowGUI();
+            	bookFrame.dispatchEvent(new WindowEvent(bookFrame, WindowEvent.WINDOW_CLOSING));
+            	
+
+            }
+        });
+		panel.add(btn_update);
 		pane.add(panel);
 		
 		
 	}
 	
-	public static JPanel makeNewField(String s) {
+	public static JPanel makeNewField(String s, JLabel label, JTextField txt) {
 		JPanel temp = new JPanel();
-		JLabel lblName = new JLabel(s + ": ");
-		temp.add(lblName);
-		JTextArea txtName = new JTextArea();
+		temp.add(label);
 		if(s.equals("Description")) {
-			txtName.setColumns(200);
-			txtName.setLineWrap(true);
+			txt.setColumns(200);
 		} else {
-			txtName.setColumns(10);
+			txt.setColumns(10);
 		}
-		temp.add(txtName);
+		temp.add(txt);
 		return temp;
 	}
  

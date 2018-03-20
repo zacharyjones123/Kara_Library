@@ -10,22 +10,34 @@ public class Library {
 	private ArrayList<Book> books;
 	private ArrayList<Student> students;
 	
-	public Library() throws FileNotFoundException {
+	public Library() {
 		books = new ArrayList<Book>();
 		students = new ArrayList<Student>();
 		//Read a txt file and add all of the books one at a time
-		Scanner in = new Scanner(new File("src/main/isbn.txt"));
+		Scanner in = null;
+		try {
+			in = new Scanner(new File("src/main/isbn.txt"));
+			System.out.println("It workedddd1!!!!");
+		} catch (FileNotFoundException e) {
+			System.out.println("It did not work :( ");
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		in.useDelimiter("\r\n");
 		while(in.hasNext()) {
 			books.add(new Book(in.next(),in.next(),in.nextLine(), in.nextLine(), in.nextLine(), in.nextLine(), in.nextLine()));
 		}
 		
-		in = new Scanner(new File("src/main/students.txt"));
+		try {
+			in = new Scanner(new File("src/main/students.txt"));
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		while(in.hasNext()) {
 			students.add(new Student(in.next(), in.next(), in.next()));
 		}
 		in.close();
-		System.out.println(books);
 	}
 	
 	public Library(ArrayList<Book> books, ArrayList<Student> students) {

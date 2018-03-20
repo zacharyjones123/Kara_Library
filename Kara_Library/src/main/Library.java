@@ -15,15 +15,17 @@ public class Library {
 		students = new ArrayList<Student>();
 		//Read a txt file and add all of the books one at a time
 		Scanner in = new Scanner(new File("src/main/isbn.txt"));
+		in.useDelimiter("\r\n");
 		while(in.hasNext()) {
-			String isbn = in.next();
-			books.add(new Book(isbn,in.nextLine(),in.nextLine(), in.nextLine(), in.nextLine(), in.nextLine(), in.nextLine()));
+			books.add(new Book(in.next(),in.next(),in.nextLine(), in.nextLine(), in.nextLine(), in.nextLine(), in.nextLine()));
 		}
 		
 		in = new Scanner(new File("src/main/students.txt"));
 		while(in.hasNext()) {
 			students.add(new Student(in.next(), in.next(), in.next()));
 		}
+		in.close();
+		System.out.println(books);
 	}
 	
 	public Library(ArrayList<Book> books, ArrayList<Student> students) {

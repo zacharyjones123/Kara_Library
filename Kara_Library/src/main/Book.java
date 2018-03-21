@@ -9,6 +9,7 @@ public class Book {
 	private String genre;
 	private String grade;
 	private String description;
+	private String subject;
 	
 	public Book() {
 		this.ISBN = null;
@@ -18,13 +19,14 @@ public class Book {
 		this.genre = null;
 		this.grade = null;
 		this.description = null;
+		this.subject = null;
 	}
 	
 	public Book(String ISBN) {
 		this.ISBN = ISBN;
 	}
 	
-	public Book(String ISBN, String title, String authorLast, String authorFirst, String genre, String grade, String description) {
+	public Book(String ISBN, String title, String authorFirst, String authorLast, String genre, String grade, String description, String subject) {
 		this.ISBN = ISBN;
 		this.title = title;
 		this.authorLast = authorLast;
@@ -32,6 +34,7 @@ public class Book {
 		this.genre = genre;
 		this.grade = grade;
 		this.description = description;
+		this.subject = subject;
 		
 		//Ok, and every 10 words, add an enter in the description
 		String temp = "";
@@ -78,6 +81,10 @@ public class Book {
 		return description;
 	}
 	
+	public String getSubject() {
+		return subject;
+	}
+	
 	//Setters (Mutators)
 	
 	public void setISBN(String ISBN) {
@@ -108,6 +115,10 @@ public class Book {
 		this.description = description;
 	}
 	
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+	
 	public String toString() {
 		String s = "";
 		s += "--------------------------------------------------------------------\n";
@@ -116,6 +127,7 @@ public class Book {
 		s += "Author Name : " + authorFirst + " " + authorLast + "\n";
 		s += "Genre:        " + genre + "\n";
 		s += "Grade Level:  " + grade + "\n";
+		s += "Subject: " + subject + "\n";
 		s += "--------------------------------------------------------------------\n";
 		s += "--------------------------------------------------------------------\n";
 		s += "Description:  " + description + "\n";

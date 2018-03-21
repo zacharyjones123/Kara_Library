@@ -50,7 +50,7 @@ import main.Library;
 public class MainFrame {
 	
 	static int width_main_frame = 500;
-	static int length_main_frame = 1000;
+	static int length_main_frame = 1800;
 	static int width_addBook_frame = 500;
 	static int length_addBook_frame = 500;
 	
@@ -73,8 +73,14 @@ public class MainFrame {
     static JLabel lbl_grade_level = new JLabel("Grade Level: ");
     static JTextField txt_grade_level = new JTextField();;
     static JLabel lbl_description = new JLabel("Description: ");
-    static JTextField txt_description = new JTextField();
+    static JTextArea txt_description = new JTextArea();
+    static JLabel lbl_subject = new JLabel("Subject: ");
+    static JTextField txt_subject = new JTextField();
     static JButton btn_update = new JButton("Update");
+    
+    static JButton btn_search = new JButton("Search: ");
+    static JTextField txt_search = new JTextField();
+    static JComboBox cmb_search = new JComboBox(new Object[] {"authorFirst", "authorLast", "genre", "ISBN"});
     
     static JFrame frame;
     static JFrame bookFrame;
@@ -130,7 +136,7 @@ public class MainFrame {
 		            @Override
 		            public void actionPerformed(ActionEvent e) {
 		        		//Create and set up the window.
-		                bookFrame = new JFrame("Add A Book");
+		            	bookFrame = new JFrame("Add A Book");
 		                bookFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		                bookFrame.setIconImage(Toolkit.getDefaultToolkit().getImage("images/icons/book.png"));
 		                bookFrame.setCursor(new Cursor(Cursor.HAND_CURSOR));
@@ -207,9 +213,49 @@ public class MainFrame {
 		        menu.add(menuItem);
 		        
 		        greenMenuBar.add(new JSeparator());
-		        greenMenuBar.add(new JButton("Search: "));
-		        greenMenuBar.add(new JTextField("    "));
-		        greenMenuBar.add(new JComboBox(new Object[] {"author", "genre", "tags"}));
+		        btn_search.addActionListener(new ActionListener() {
+		            @Override
+		            public void actionPerformed(ActionEvent e) {
+		            	//We need to search for a certain word
+		            	//Need to see what the JComboBox is
+		            	
+		            	//Is the search box empty?
+		            	if(txt_search.getText().equals("")) {
+		            		addComponentsToPane(frame.getContentPane(), library);
+		            		frame.revalidate();
+		            	} else {
+		            		
+		            		if (((String)cmb_search.getSelectedItem()).equals("authorFirst")){
+		            			System.out.println(txt_search.getText());
+		            			//Then need to search for author entered
+		            			addComponentsToPane(frame.getContentPane(), library, "authorFirst", txt_search.getText());
+		            			frame.revalidate();
+		            		
+		            		} else if(((String)cmb_search.getSelectedItem()).equals("authorLast")) {
+		            			addComponentsToPane(frame.getContentPane(), library, "authorLast", txt_search.getText());
+		            			frame.revalidate();
+		            			
+		            		} else if (((String)cmb_search.getSelectedItem()).equals("genre")) {
+		            			addComponentsToPane(frame.getContentPane(), library, "genre", txt_search.getText());
+		            			frame.revalidate();
+		            			//Then need to search by genre specified
+		            		
+		            		} else if (((String)cmb_search.getSelectedItem()).equals("ISBN")) {
+		            			addComponentsToPane(frame.getContentPane(), library, "ISBN", txt_search.getText());
+		            			frame.revalidate();
+		            			//Then need to search by tags specified
+		            			
+		            		} else {
+		            			System.out.println("No Such Button");
+		            		}
+		            	
+		            	}
+
+		            }
+		        });
+		        greenMenuBar.add(btn_search);
+		        greenMenuBar.add(txt_search);
+		        greenMenuBar.add(cmb_search);
 		        greenMenuBar.add(Box.createHorizontalGlue());
 		        greenMenuBar.add(new JMenu("About"));
 		        
@@ -231,33 +277,36 @@ public class MainFrame {
 		
 		JPanel panel = new JPanel();
 		panel.setAlignmentX(Component.BOTTOM_ALIGNMENT);
-		if (RIGHT_TO_LEFT) {
-            panel.setComponentOrientation(ComponentOrientation.RIGHT_TO_LEFT);
-        }
  
-        JButton button;
+        JLabel label;
         panel.setLayout(new BoxLayout(panel, BoxLayout.X_AXIS));
-        panel.setMaximumSize(new Dimension(1000, 25));
+        panel.setPreferredSize(new Dimension(length_main_frame, 25));
+        Border blackline = BorderFactory.createLineBorder(Color.black);
         
-    button = new JButton(book.getTitle());
-    button.setMaximumSize(new Dimension(250, 25));
-    //c.fill = GridBagConstraints.HORIZONTAL;
-    button.setAlignmentX(Component.CENTER_ALIGNMENT);
-    panel.add(button);
+        label = new JLabel(book.getTitle());
+        label.setMaximumSize(new Dimension(length_main_frame/5, 25));
+        label.setAlignmentX(Component.CENTER_ALIGNMENT);
+        label.setBorder(blackline);
+    panel.add(label);
     
-    button = new JButton(book.getAuthorFirst() + " " + book.getAuthorLast());
-    button.setMaximumSize(new Dimension(250, 25));
-    panel.add(button);
+    label = new JLabel(book.getAuthorFirst() + " " + book.getAuthorLast());
+    label.setMaximumSize(new Dimension(length_main_frame/5, 25));
+    label.setAlignmentX(Component.CENTER_ALIGNMENT);
+    label.setBorder(blackline);
+    panel.add(label);
     
-    button = new JButton(book.getGenre());
-    button.setMaximumSize(new Dimension(250, 25));
-    panel.add(button);
+    label = new JLabel(book.getGenre());
+    label.setMaximumSize(new Dimension(length_main_frame/5, 25));
+    label.setAlignmentX(Component.CENTER_ALIGNMENT);
+    label.setBorder(blackline);
+    panel.add(label);
     
-    button = new JButton(book.getGrade());
-    button.setMaximumSize(new Dimension(250, 25));
-    panel.add(button);
+    label = new JLabel(book.getGrade());
+    label.setMaximumSize(new Dimension(length_main_frame/5, 25));
+    label.setAlignmentX(Component.CENTER_ALIGNMENT);
+    label.setBorder(blackline);
+    panel.add(label);
 		
-    Border blackline = BorderFactory.createLineBorder(Color.black);
     panel.setBorder(blackline);
     panel.setAlignmentX(Component.LEFT_ALIGNMENT);
     
@@ -282,8 +331,65 @@ public class MainFrame {
     
     }
 	
-	public static void addComponentsToPaneBook(Container pane, Library library) {
+	public static void addComponentsToPane(Container pane, Library library, String col, String search) {
 		JPanel panel = new JPanel();
+		panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+		//Add Columns
+		JPanel bookPanelCol = null;
+		bookPanelCol = makeBookPanel(new Book("ISBN", "Title", "Author First", "-Last", "Genre", "Grade", "Description", "Subject"));
+		panel.add(bookPanelCol);
+		
+		
+		if(col.equals("authorLast")) {
+			for(Book book : library.getBooks()) {
+				if(book.getAuthorLast().equals(search)) {
+					JPanel bookPanel = null;
+					bookPanel = makeBookPanel(book);
+					panel.add(bookPanel);
+				}
+			}
+		
+		} else if(col.equals("authorFirst")) {
+			for(Book book : library.getBooks()) {
+				if(book.getAuthorFirst().equals(search)) {
+					JPanel bookPanel = null;
+					bookPanel = makeBookPanel(book);
+					panel.add(bookPanel);
+				}
+			}
+			
+		} else if(col.equals("genre")) {
+			for(Book book : library.getBooks()) {
+				if(book.getGenre().equals(search)) {
+					JPanel bookPanel = null;
+					bookPanel = makeBookPanel(book);
+					panel.add(bookPanel);
+				}
+			}
+			
+		} else if(col.equals("ISBN")) {
+			for(Book book : library.getBooks()) {
+				if(book.getISBN().equals(search)) {
+					JPanel bookPanel = null;
+					bookPanel = makeBookPanel(book);
+					panel.add(bookPanel);
+				}
+			}
+			
+		} else {
+			System.out.println("No such search");
+		}
+    
+		JScrollPane scrollPane = new JScrollPane(panel);
+    
+		pane.add(scrollPane);
+	}
+	
+	public static void addComponentsToPaneBook(Container pane, Library library) {
+		btn_update = new JButton("Update");
+		
+		JPanel panel = new JPanel();
+		bookFrame.getSize();
 		panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
 		
 		panel.add(makeNewField("Name", lbl_title, txt_title));
@@ -292,6 +398,7 @@ public class MainFrame {
 		panel.add(makeNewField("Genre", lbl_genre, txt_genre));
 		panel.add(makeNewField("ISBN", lbl_isbn, txt_isbn));
 		panel.add(makeNewField("Grade Level", lbl_grade_level, txt_grade_level));
+		panel.add(makeNewField("Subject", lbl_subject, txt_subject));
 		panel.add(makeNewField("Description", lbl_description, txt_description));
 		btn_update.addActionListener(new ActionListener() {
             @Override
@@ -300,15 +407,26 @@ public class MainFrame {
             	//TODO: Check the book
             	
             	//Add the book
-            	library.addBook(new Book(txt_title.getText(), txt_author_last_name.getText(),
-            					txt_author_first_name.getText(), txt_genre.getText(), txt_isbn.getText(),
-            					txt_grade_level.getText(), txt_description.getText()));
+            	library.addBook(new Book(txt_isbn.getText(), txt_title.getText(), txt_author_last_name.getText(),
+            					txt_author_first_name.getText(), txt_genre.getText(),
+            					txt_grade_level.getText(), txt_description.getText(), txt_subject.getText()));
             	
             	
             	//addComponentsToPane(frame.getContentPane(), library);
             	frame.dispose();
+            	frame = null;
             	bookFrame.dispose();
+            	bookFrame.revalidate();
+            	//bookFrame = null;
             	createAndShowGUI();
+            	txt_title.setText("");
+            	txt_author_last_name.setText("");
+            	txt_author_first_name.setText("");
+            	txt_genre.setText("");
+            	txt_isbn.setText("");
+            	txt_grade_level.setText("");
+            	txt_description.setText("");
+            	txt_subject.setText("");
             	
 
             }
@@ -328,6 +446,19 @@ public class MainFrame {
 			txt.setColumns(10);
 		}
 		temp.add(txt);
+		return temp;
+	}
+	
+	public static JPanel makeNewField(String s, JLabel label, JTextArea txt) {
+		JPanel temp = new JPanel();
+		temp.add(label);
+		txt.setLineWrap(true);
+		txt.setWrapStyleWord(true);
+		JScrollPane areaScrollPane = new JScrollPane(txt);
+		areaScrollPane.setVerticalScrollBarPolicy(
+		                JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+		areaScrollPane.setPreferredSize(new Dimension(250, 250));
+		temp.add(areaScrollPane);
 		return temp;
 	}
  

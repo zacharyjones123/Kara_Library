@@ -23,9 +23,10 @@ public class Library {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		in.useDelimiter("\r\n");
+		in.useDelimiter("\\n");
 		while(in.hasNext()) {
-			books.add(new Book(in.next(),in.next(),in.nextLine(), in.nextLine(), in.nextLine(), in.nextLine(), in.nextLine()));
+			System.out.println("jkjkj");
+			books.add(new Book(in.next(),in.next(),in.next(), in.next(), in.next(), in.next(), in.next(), in.next()));
 		}
 		
 		try {

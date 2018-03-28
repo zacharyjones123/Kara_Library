@@ -42,6 +42,7 @@ import javax.swing.JSeparator;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.KeyStroke;
+import javax.swing.UIManager;
 import javax.swing.border.Border;
 
 import main.Book;
@@ -61,17 +62,17 @@ public class MainFrame {
     final static boolean RIGHT_TO_LEFT = false;
     
     static JLabel lbl_title = new JLabel("Title: ");
-    static JTextField txt_title = new JTextField();;
+    static JTextField txt_title = new JTextField();
     static JLabel lbl_author_last_name = new JLabel("Author Last Name: ");
-    static JTextField txt_author_last_name = new JTextField();;
+    static JTextField txt_author_last_name = new JTextField();
     static JLabel lbl_author_first_name = new JLabel("Author First Name: ");
     static JTextField txt_author_first_name = new JTextField();;
     static JLabel lbl_genre = new JLabel("Genre: ");
-    static JTextField txt_genre = new JTextField();;
+    static JTextField txt_genre = new JTextField();
     static JLabel lbl_isbn = new JLabel("ISBN: ");
-    static JTextField txt_isbn = new JTextField();;
+    static JTextField txt_isbn = new JTextField();
     static JLabel lbl_grade_level = new JLabel("Grade Level: ");
-    static JTextField txt_grade_level = new JTextField();;
+    static JTextField txt_grade_level = new JTextField();
     static JLabel lbl_description = new JLabel("Description: ");
     static JTextArea txt_description = new JTextArea();
     static JLabel lbl_subject = new JLabel("Subject: ");
@@ -84,14 +85,26 @@ public class MainFrame {
     
     static JFrame frame;
     static JFrame bookFrame;
+    static JFrame displayBookFrame;
 	
 	private static void createAndShowGUI() {
+		////////////////////
+		/**
+		try { 
+		    UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+		} catch (Exception e) {
+		    e.printStackTrace();
+		}
+		**/
+		//////////////////////////////////
+		
 		//Create and set up the window.
         frame = new JFrame("Kara's Library");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setIconImage(Toolkit.getDefaultToolkit().getImage("images/icons/apple.png"));
         frame.setCursor(new Cursor(Cursor.HAND_CURSOR));
         //frame.setUndecorated(true);
+        
         
         //Set The MenuBar
         setMenuBar(frame, library);
@@ -135,21 +148,22 @@ public class MainFrame {
 		        menuItem.addActionListener(new ActionListener() {
 		            @Override
 		            public void actionPerformed(ActionEvent e) {
+		            	
 		        		//Create and set up the window.
-		            	bookFrame = new JFrame("Add A Book");
-		                bookFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		                bookFrame.setIconImage(Toolkit.getDefaultToolkit().getImage("images/icons/book.png"));
-		                bookFrame.setCursor(new Cursor(Cursor.HAND_CURSOR));
+		            	displayBookFrame = new JFrame("Add A Book");
+		            	displayBookFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		            	displayBookFrame.setIconImage(Toolkit.getDefaultToolkit().getImage("images/icons/book.png"));
+		            	displayBookFrame.setCursor(new Cursor(Cursor.HAND_CURSOR));
 		                //frame.setUndecorated(true);
 		                
 		              //Set up the content pane.
-		                addComponentsToPaneBook(bookFrame.getContentPane(), library);
+		                addComponentsToPaneBook(displayBookFrame.getContentPane(), library);
 		         
 		                //Display the window.
-		                bookFrame.pack();
-		                bookFrame.setSize(length_addBook_frame, width_addBook_frame);
-		                bookFrame.setLocationRelativeTo(null); //To make center
-		                bookFrame.setVisible(true);
+		                displayBookFrame.pack();
+		                displayBookFrame.setSize(length_addBook_frame, width_addBook_frame);
+		                displayBookFrame.setLocationRelativeTo(null); //To make center
+		                displayBookFrame.setVisible(true);
 
 		            }
 		        });
@@ -279,38 +293,73 @@ public class MainFrame {
 		panel.setAlignmentX(Component.BOTTOM_ALIGNMENT);
  
         JLabel label;
+        JButton button;
         panel.setLayout(new BoxLayout(panel, BoxLayout.X_AXIS));
         panel.setPreferredSize(new Dimension(length_main_frame, 25));
         Border blackline = BorderFactory.createLineBorder(Color.black);
         
-        label = new JLabel(book.getTitle());
+       	button = new JButton(book.getTitle());
+       	button.setMaximumSize(new Dimension(length_main_frame/5, 25));
+        button.setAlignmentX(Component.CENTER_ALIGNMENT);
+        button.setBorder(blackline);
+        button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {   	
+            	bookFrame = new JFrame("title");
+            	bookFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            	bookFrame.setIconImage(Toolkit.getDefaultToolkit().getImage("images/icons/book.png"));
+            	bookFrame.setCursor(new Cursor(Cursor.HAND_CURSOR));
+            	////////////
+            	JPanel panel = new JPanel();
+        		panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+        		
+        		JPanel temp = new JPanel();
+        		JLabel tempLbl = new JLabel(book.getTitle());
+        		temp.add(tempLbl);
+        		
+        		
+        		
+        		//panel.add(makeNewField(book.getAuthorFirst()));
+        		//panel.add(makeNewField(book.getAuthorLast()));
+        		//panel.add(makeNewField(book.getGenre()));
+        		//panel.add(makeNewField(book.getISBN()));
+        		//panel.add(makeNewField(book.getGrade()));
+        		//panel.add(makeNewField(book.getSubject()));
+        		//panel.add(makeNewField(book.getDescription()));
+        		//////////////
+        		bookFrame.getContentPane().add(panel);
+        		
+        		//Display the window.
+                bookFrame.pack();
+                bookFrame.setSize(length_addBook_frame, width_addBook_frame);
+                bookFrame.setLocationRelativeTo(null); //To make center
+                bookFrame.setVisible(true);
+            }
+        });
+        panel.add(button);
+    
+        label = new JLabel(book.getAuthorFirst() + " " + book.getAuthorLast());
         label.setMaximumSize(new Dimension(length_main_frame/5, 25));
         label.setAlignmentX(Component.CENTER_ALIGNMENT);
         label.setBorder(blackline);
-    panel.add(label);
+        panel.add(label);
     
-    label = new JLabel(book.getAuthorFirst() + " " + book.getAuthorLast());
-    label.setMaximumSize(new Dimension(length_main_frame/5, 25));
-    label.setAlignmentX(Component.CENTER_ALIGNMENT);
-    label.setBorder(blackline);
-    panel.add(label);
+        label = new JLabel(book.getGenre());
+        label.setMaximumSize(new Dimension(length_main_frame/5, 25));
+        label.setAlignmentX(Component.CENTER_ALIGNMENT);
+        label.setBorder(blackline);
+        panel.add(label);
     
-    label = new JLabel(book.getGenre());
-    label.setMaximumSize(new Dimension(length_main_frame/5, 25));
-    label.setAlignmentX(Component.CENTER_ALIGNMENT);
-    label.setBorder(blackline);
-    panel.add(label);
-    
-    label = new JLabel(book.getGrade());
-    label.setMaximumSize(new Dimension(length_main_frame/5, 25));
-    label.setAlignmentX(Component.CENTER_ALIGNMENT);
-    label.setBorder(blackline);
-    panel.add(label);
+        label = new JLabel(book.getGrade());
+        label.setMaximumSize(new Dimension(length_main_frame/5, 25));
+        label.setAlignmentX(Component.CENTER_ALIGNMENT);
+        label.setBorder(blackline);
+        panel.add(label);
 		
-    panel.setBorder(blackline);
-    panel.setAlignmentX(Component.LEFT_ALIGNMENT);
+        panel.setBorder(blackline);
+        panel.setAlignmentX(Component.LEFT_ALIGNMENT);
     
-    return panel;
+        return panel;
 		
 	}
 	

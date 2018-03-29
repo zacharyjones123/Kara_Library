@@ -121,18 +121,16 @@ public class Book {
 	
 	public String toString() {
 		String s = "";
-		s += "--------------------------------------------------------------------\n";
-		s += "ISBN:         " + ISBN + "\n";
-		s += "Title:        " + title + "\n";
-		s += "Author Name : " + authorFirst + " " + authorLast + "\n";
-		s += "Genre:        " + genre + "\n";
-		s += "Grade Level:  " + grade + "\n";
-		s += "Subject: " + subject + "\n";
-		s += "--------------------------------------------------------------------\n";
-		s += "--------------------------------------------------------------------\n";
-		s += "Description:  " + description + "\n";
-		s += "--------------------------------------------------------------------\n";
-		s += "--------------------------------------------------------------------\n";
+		s += ISBN + "\n";
+		s += title + "\n";
+		s += authorFirst + "\n";
+		s += authorLast + "\n";
+		s += genre + "\n";
+		s += grade + "\n";
+		s += subject + "\n";
+		String text = description;
+		text = text.replace("\n", "").replace("\r", "");
+		s += text;
 		return s;
 	}
 

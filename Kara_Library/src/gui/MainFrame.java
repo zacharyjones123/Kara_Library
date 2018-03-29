@@ -1,5 +1,6 @@
 package gui;
 
+import java.awt.BasicStroke;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
@@ -8,6 +9,7 @@ import java.awt.Container;
 import java.awt.Cursor;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
+import java.awt.Font;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Image;
@@ -18,7 +20,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.WindowEvent;
+import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 
 import javax.swing.BorderFactory;
@@ -54,6 +59,12 @@ public class MainFrame {
 	static int length_main_frame = 1800;
 	static int width_addBook_frame = 500;
 	static int length_addBook_frame = 500;
+	
+	static int fontSize_title = 20;
+	static int icon_book_height = 200;
+	static int icon_book_width = 200;
+	static int label_book_height = 25;
+	static int label_book_width = 200;
 	
 	static Library library = new Library();
 	
@@ -282,7 +293,6 @@ public class MainFrame {
 	public static void addBookGUI(Book book) {
 		JFrame frame = new JFrame ("MyPanel");
         frame.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
-        frame.getContentPane().add (new MyPanel());
         frame.pack();
         frame.setVisible (true);
 	}
@@ -305,29 +315,56 @@ public class MainFrame {
         button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {   	
-            	bookFrame = new JFrame("title");
+            	bookFrame = new JFrame("Kara's Library");
             	bookFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             	bookFrame.setIconImage(Toolkit.getDefaultToolkit().getImage("images/icons/book.png"));
             	bookFrame.setCursor(new Cursor(Cursor.HAND_CURSOR));
             	////////////
+            	JPanel contentPane = new JPanel();
             	JPanel panel = new JPanel();
-        		panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
-        		
-        		JPanel temp = new JPanel();
-        		JLabel tempLbl = new JLabel(book.getTitle());
-        		temp.add(tempLbl);
-        		
-        		
-        		
-        		//panel.add(makeNewField(book.getAuthorFirst()));
-        		//panel.add(makeNewField(book.getAuthorLast()));
-        		//panel.add(makeNewField(book.getGenre()));
-        		//panel.add(makeNewField(book.getISBN()));
-        		//panel.add(makeNewField(book.getGrade()));
-        		//panel.add(makeNewField(book.getSubject()));
-        		//panel.add(makeNewField(book.getDescription()));
-        		//////////////
-        		bookFrame.getContentPane().add(panel);
+            	panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+            	panel.setBorder(BorderFactory.createStrokeBorder(new BasicStroke(5.0f)));
+            	panel.setPreferredSize(new Dimension(210, 267)); //different because of the border addition
+            	
+            	
+            	//Picture
+            	System.out.println("images/books/" + book.getISBN() + ".jpg");
+            	ImageIcon imageIcon = new ImageIcon("images/books/" + book.getISBN() + ".jpg", "hello"); // load the image to a imageIcon
+            	Image image = imageIcon.getImage(); // transform it 
+            	Image newimg = image.getScaledInstance(icon_book_width, icon_book_height,  java.awt.Image.SCALE_SMOOTH); // scale it the smooth way  
+            	imageIcon = new ImageIcon(newimg);  // transform it back
+            	
+            	JLabel imageLbl = new JLabel(imageIcon);
+            	panel.add(imageLbl);
+            	/////////////////
+            	
+            	//Title
+            	JLabel tempLbl = new JLabel(book.getTitle());
+            	tempLbl.setFont(new Font("Serif", Font.PLAIN, fontSize_title));
+            	tempLbl.setOpaque(true);
+            	tempLbl.setBackground(Color.LIGHT_GRAY);
+            	tempLbl.setForeground(Color.BLACK);
+            	tempLbl.setBorder(BorderFactory.createLineBorder(Color.black));
+            	tempLbl.setMaximumSize(new Dimension(label_book_width, label_book_height));
+            	
+            	panel.add(tempLbl);
+            	//////////////////
+            	
+            	//Author
+            	tempLbl = new JLabel(book.getAuthorFirst() + " " + book.getAuthorLast());
+            	tempLbl.setFont(new Font("Serif", Font.PLAIN, fontSize_title));
+            	tempLbl.setOpaque(true);
+            	tempLbl.setBackground(Color.LIGHT_GRAY);
+            	tempLbl.setForeground(Color.BLACK);
+            	tempLbl.setBorder(BorderFactory.createLineBorder(Color.black));
+            	tempLbl.setMaximumSize(new Dimension(label_book_width, label_book_height));
+            	
+            	panel.add(tempLbl);
+            	/////////////////////
+            	
+            	contentPane.add(panel);
+            	
+            	bookFrame.getContentPane().add(contentPane);
         		
         		//Display the window.
                 bookFrame.pack();
@@ -438,7 +475,6 @@ public class MainFrame {
 		btn_update = new JButton("Update");
 		
 		JPanel panel = new JPanel();
-		bookFrame.getSize();
 		panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
 		
 		panel.add(makeNewField("Name", lbl_title, txt_title));
@@ -464,8 +500,8 @@ public class MainFrame {
             	//addComponentsToPane(frame.getContentPane(), library);
             	frame.dispose();
             	frame = null;
-            	bookFrame.dispose();
-            	bookFrame.revalidate();
+            	displayBookFrame.dispose();
+            	displayBookFrame.revalidate();
             	//bookFrame = null;
             	createAndShowGUI();
             	txt_title.setText("");
@@ -476,6 +512,17 @@ public class MainFrame {
             	txt_grade_level.setText("");
             	txt_description.setText("");
             	txt_subject.setText("");
+            	
+            	//Need to rewrite the txt file
+            	File fold=new File("src/main/isbn.txt");
+
+            	try {
+            	    FileWriter f2 = new FileWriter(fold, true);
+            	    f2.write(library.getBooks().get(library.getBooks().size()-1).toString());
+            	    f2.close();
+            	} catch (IOException f) {
+            	    f.printStackTrace();
+            	}    
             	
 
             }

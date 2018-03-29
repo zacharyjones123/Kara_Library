@@ -6,7 +6,7 @@ Genre
 Grade
 Description
 Subject
-978-0399257629
+9780399257629
 Thank you, Mr. Falker
 Patricia
 Polacco
@@ -14,7 +14,7 @@ Picture Books, Juvenile works, Fiction, Juvenile fiction
 3-5
 In this autobiographical story, Little Trisha, overjoyed at the thought of learning how to read struggles when she finds that all the letters and numbers get jumbled up. Her classmates make matters worse by calling her "dummy." Finally, in fifth grade, she is lucky enough to have a teacher who recognizes Trisha's incredible artistic ability, understands her problem, and takes the time to lead her to the magic of reading.
 Unknown
-978-0590411455
+9780590411455
 The Little Red Hen
 Lucinda
 McQueen
@@ -22,7 +22,7 @@ Unknown
 Preschool - 3
 The little red hen lived with a goose, a cat, and a dog, all who were lazy. Would not do anything to help the hen. The hen planted, cut, and took care of the wheat she was growing, and even though she asked the goose, the cat, and the dog, she never got any help. When it was time for the baking of the bread that she made out of the wheat. The goose, the cat, and the dog will ready to help her eat it. But the hen has a little surprise for them.
 Unknown
-978-0618439539
+9780618439539
 Tackylocks and the Three Bears
 Helen
 Lester
@@ -30,7 +30,7 @@ Unknown
 Preschool - 3
 Unknown
 Unknown
-978-0805068313
+9780805068313
 The Scrambled States of America
 Laurie
 Keller
@@ -38,7 +38,7 @@ Unknown
 Preschool - 2
 Unknown
 Unknown
-978-0395453568
+9780395453568
 Fritz and the Beautiful Horses
 Jan
 Brett
@@ -46,7 +46,7 @@ Unknown
 Preschool - 3
 Unknown
 Unknown
-978-0152015404
+9780152015404
 Stellaluna
 Janell
 Cannon
@@ -54,7 +54,7 @@ Unknown
 Preschool - 3
 Unknown
 Unknown
-978-0395562338
+9780395562338
 Tacky the Penguin
 Helen
 Lester
@@ -62,7 +62,7 @@ Unknown
 Preschool - 3
 Unknown
 Unknown
-978-0395353936
+9780395353936
 The Mysteries of Harris Burdick
 Chris
 Van Allsburg
@@ -70,7 +70,7 @@ Unknown
 Preschool - 3
 Unknown
 Unknown
-978-0064431439
+9780064431439
 Caps for Sale
 Esphyr
 Slobodkina

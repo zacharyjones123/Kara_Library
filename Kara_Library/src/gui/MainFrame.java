@@ -328,7 +328,6 @@ public class MainFrame {
             	
             	
             	//Picture
-            	System.out.println("images/books/" + book.getISBN() + ".jpg");
             	ImageIcon imageIcon = new ImageIcon("images/books/" + book.getISBN() + ".jpg", "hello"); // load the image to a imageIcon
             	Image image = imageIcon.getImage(); // transform it 
             	Image newimg = image.getScaledInstance(icon_book_width, icon_book_height,  java.awt.Image.SCALE_SMOOTH); // scale it the smooth way  

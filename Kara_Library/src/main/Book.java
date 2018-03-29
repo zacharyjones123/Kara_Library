@@ -27,14 +27,14 @@ public class Book {
 	}
 	
 	public Book(String ISBN, String title, String authorFirst, String authorLast, String genre, String grade, String description, String subject) {
-		this.ISBN = ISBN;
-		this.title = title;
-		this.authorLast = authorLast;
-		this.authorFirst = authorFirst;
-		this.genre = genre;
-		this.grade = grade;
-		this.description = description;
-		this.subject = subject;
+		this.ISBN = ISBN.replace("\n", "").replace("\r", "");
+		this.title = title.replace("\n", "").replace("\r", "");
+		this.authorLast = authorLast.replace("\n", "").replace("\r", "");
+		this.authorFirst = authorFirst.replace("\n", "").replace("\r", "");
+		this.genre = genre.replace("\n", "").replace("\r", "");
+		this.grade = grade.replace("\n", "").replace("\r", "");
+		this.description = description.replace("\n", "").replace("\r", "");
+		this.subject = subject.replace("\n", "").replace("\r", "");
 		
 		//Ok, and every 10 words, add an enter in the description
 		String temp = "";
@@ -88,7 +88,7 @@ public class Book {
 	//Setters (Mutators)
 	
 	public void setISBN(String ISBN) {
-		this.ISBN = ISBN;;
+		this.ISBN = ISBN;
 	}
 	
 	public void setTitle(String title) {

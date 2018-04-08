@@ -53,20 +53,22 @@ import javax.swing.border.Border;
 import main.Book;
 import main.Library;
 
-public class MainFrame {
+public class MainFrameHighDPI {
 	
-	static Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-	
-	static int length_main_frame = (int)screenSize.getWidth();
-	static int width_main_frame = (int)screenSize.getHeight();
+	static int width_main_frame = 500;
+	static int length_main_frame = 1800;
 	static int width_addBook_frame = 500;
 	static int length_addBook_frame = 500;
 	
 	static int fontSize_title = 20;
 	static int icon_book_height = 200;
 	static int icon_book_width = 200;
-	static int label_book_height = 25;
-	static int label_book_width = 200;
+	static int label_book_height = 25 * 2;
+	static int label_book_width = 200 * 2;
+	
+	//Colors
+	final static Color GREEN = new Color(154, 165, 127);
+	final static Dimension GREEN_BAR = new Dimension(200, 20);
 	
 	static Library library = new Library();
 	
@@ -93,14 +95,12 @@ public class MainFrame {
     static JButton btn_update = new JButton("Update");
     
     static JButton btn_search = new JButton("Search: ");
-    static JButton btn_delete = new JButton("Delete");
     static JTextField txt_search = new JTextField();
     static JComboBox cmb_search = new JComboBox(new Object[] {"authorFirst", "authorLast", "genre", "ISBN"});
     
     static JFrame frame;
     static JFrame bookFrame;
     static JFrame displayBookFrame;
-    static JFrame deleteBookFrame;
 	
 	private static void createAndShowGUI() {
 		////////////////////
@@ -140,8 +140,8 @@ public class MainFrame {
 		        //Create the menu bar.  Make it have a green background.
 		        JMenuBar greenMenuBar = new JMenuBar();
 		        greenMenuBar.setOpaque(true);
-		        greenMenuBar.setBackground(new Color(154, 165, 127));
-		        greenMenuBar.setPreferredSize(new Dimension(200, 20));
+		        greenMenuBar.setBackground(GREEN);
+		        greenMenuBar.setPreferredSize(GREEN_BAR);
 		        
 		        //The Menu
 		      //Build the first menu.
@@ -166,7 +166,7 @@ public class MainFrame {
 		            	
 		        		//Create and set up the window.
 		            	displayBookFrame = new JFrame("Add A Book");
-		            	displayBookFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		            	displayBookFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		            	displayBookFrame.setIconImage(Toolkit.getDefaultToolkit().getImage("images/icons/book.png"));
 		            	displayBookFrame.setCursor(new Cursor(Cursor.HAND_CURSOR));
 		                //frame.setUndecorated(true);
@@ -190,33 +190,6 @@ public class MainFrame {
 		        menuItem.setAccelerator(KeyStroke.getKeyStroke(
 		                KeyEvent.VK_E, ActionEvent.ALT_MASK));
 		        menuItem.setMnemonic(KeyEvent.VK_B);
-		        menu.add(menuItem);
-		        
-		        menuItem = new JMenuItem("Delete Book");
-		        menuItem.addActionListener(new ActionListener() {
-		            @Override
-		            public void actionPerformed(ActionEvent e) {
-		            	
-		            	//I want to delete a book
-		            	
-		        		//Create and set up the window.
-		            	deleteBookFrame = new JFrame("Delete A Book");
-		            	deleteBookFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-		            	deleteBookFrame.setIconImage(Toolkit.getDefaultToolkit().getImage("images/icons/book.png"));
-		            	deleteBookFrame.setCursor(new Cursor(Cursor.HAND_CURSOR));
-		                //frame.setUndecorated(true);
-		                
-		              //Set up the content pane.
-		                addComponentsToDeleteBook(deleteBookFrame.getContentPane(), library);
-		         
-		                //Display the window.
-		                deleteBookFrame.pack();
-		                deleteBookFrame.setSize(length_addBook_frame, width_addBook_frame);
-		                deleteBookFrame.setLocationRelativeTo(null); //To make center
-		                deleteBookFrame.setVisible(true);
-
-		            }
-		        });
 		        menu.add(menuItem);
 
 		        menuItem = new JMenuItem("Filter",
@@ -321,6 +294,13 @@ public class MainFrame {
 		      //-------------------------------------------------------------------------
 	}
 	
+	public static void addBookGUI(Book book) {
+		JFrame frame = new JFrame ("MyPanel");
+        frame.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
+        frame.pack();
+        frame.setVisible (true);
+	}
+	
 	public static JPanel makeBookPanel(Book book) {
 		
 		JPanel panel = new JPanel();
@@ -340,7 +320,7 @@ public class MainFrame {
             @Override
             public void actionPerformed(ActionEvent e) {   	
             	bookFrame = new JFrame("Kara's Library");
-            	bookFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+            	bookFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             	bookFrame.setIconImage(Toolkit.getDefaultToolkit().getImage("images/icons/book.png"));
             	bookFrame.setCursor(new Cursor(Cursor.HAND_CURSOR));
             	////////////
@@ -423,8 +403,6 @@ public class MainFrame {
 		
 	}
 	
-	//This is meant to fill up the Main frame with everything that is needed
-	//for the teacher to see
 	public static void addComponentsToPane(Container pane, Library library) {
  
 		JPanel panel = new JPanel();
@@ -442,7 +420,6 @@ public class MainFrame {
     
     }
 	
-	//This is meant to make a new JFrame after searching for something
 	public static void addComponentsToPane(Container pane, Library library, String col, String search) {
 		JPanel panel = new JPanel();
 		panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
@@ -497,11 +474,8 @@ public class MainFrame {
 		pane.add(scrollPane);
 	}
 	
-	
-	//This is used to make a JFrame to add a book to the frame
 	public static void addComponentsToPaneBook(Container pane, Library library) {
 		btn_update = new JButton("Update");
-		btn_update.setMnemonic(KeyEvent.VK_ENTER);
 		
 		JPanel panel = new JPanel();
 		panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
@@ -521,9 +495,8 @@ public class MainFrame {
             	//TODO: Check the book
             	
             	//Add the book
-            	System.out.println("This is the txt_ibsn: " + txt_isbn.getText());
-            	library.addBook(new Book(txt_isbn.getText(), txt_title.getText(), txt_author_first_name.getText(),
-            					txt_author_last_name.getText(), txt_genre.getText(),
+            	library.addBook(new Book(txt_isbn.getText(), txt_title.getText(), txt_author_last_name.getText(),
+            					txt_author_first_name.getText(), txt_genre.getText(),
             					txt_grade_level.getText(), txt_description.getText(), txt_subject.getText()));
             	
             	
@@ -542,8 +515,17 @@ public class MainFrame {
             	txt_grade_level.setText("");
             	txt_description.setText("");
             	txt_subject.setText("");
+            	
+            	//Need to rewrite the txt file
+            	File fold=new File("src/main/isbn.txt");
 
-            	library.reWriteLibrary(); 
+            	try {
+            	    FileWriter f2 = new FileWriter(fold, true);
+            	    f2.write(library.getBooks().get(library.getBooks().size()-1).toString());
+            	    f2.close();
+            	} catch (IOException f) {
+            	    f.printStackTrace();
+            	}    
             	
 
             }
@@ -554,58 +536,6 @@ public class MainFrame {
 		
 	}
 	
-	
-	public static void addComponentsToDeleteBook(Container pane, Library library) {
-		btn_delete.setMnemonic(KeyEvent.VK_ENTER);
-		
-		JPanel panel = new JPanel();
-		panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
-		
-		panel.add(makeNewField("Name", lbl_title, txt_title));
-		panel.add(makeNewField("Author First Name", lbl_author_first_name, txt_author_first_name));
-		panel.add(makeNewField("Author Last Name", lbl_author_last_name, txt_author_last_name));
-		panel.add(makeNewField("Genre", lbl_genre, txt_genre));
-		panel.add(makeNewField("ISBN", lbl_isbn, txt_isbn));
-		panel.add(makeNewField("Grade Level", lbl_grade_level, txt_grade_level));
-		panel.add(makeNewField("Subject", lbl_subject, txt_subject));
-		panel.add(makeNewField("Description", lbl_description, txt_description));
-		btn_delete.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-            	//Check to see if correct book
-            	//TODO: Check the book
-            	
-            	//Add the book
-            	System.out.println("This is the txt_ibsn: " + txt_isbn.getText());
-            	library.deleteBook(new Book(txt_isbn.getText(), txt_title.getText(), txt_author_first_name.getText(),
-            					txt_author_last_name.getText(), txt_genre.getText(),
-            					txt_grade_level.getText(), txt_description.getText(), txt_subject.getText()));
-            	
-            	
-            	//addComponentsToPane(frame.getContentPane(), library);
-            	library.reWriteLibrary(); 
-            	frame.dispose();
-            	frame = null;
-            	deleteBookFrame.dispose();
-            	deleteBookFrame.revalidate();
-            	//bookFrame = null;
-            	createAndShowGUI();
-            	txt_title.setText("");
-            	txt_author_last_name.setText("");
-            	txt_author_first_name.setText("");
-            	txt_genre.setText("");
-            	txt_isbn.setText("");
-            	txt_grade_level.setText("");
-            	txt_description.setText("");
-            	txt_subject.setText("");
-
-            	
-
-            }
-        });
-		panel.add(btn_delete);
-		pane.add(panel);
-	}
 	public static JPanel makeNewField(String s, JLabel label, JTextField txt) {
 		JPanel temp = new JPanel();
 		temp.add(label);

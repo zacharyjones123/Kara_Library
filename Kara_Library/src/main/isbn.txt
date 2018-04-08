@@ -4,79 +4,79 @@ Author First
 -Last
 Genre
 Grade
-Description
-Subject
+Subject 
+Description 
 9780399257629
 Thank you, Mr. Falker
 Patricia
 Polacco
 Picture Books, Juvenile works, Fiction, Juvenile fiction
 3-5
-In this autobiographical story, Little Trisha, overjoyed at the thought of learning how to read struggles when she finds that all the letters and numbers get jumbled up. Her classmates make matters worse by calling her "dummy." Finally, in fifth grade, she is lucky enough to have a teacher who recognizes Trisha's incredible artistic ability, understands her problem, and takes the time to lead her to the magic of reading.
-Unknown
+Unknown 
+In this autobiographical story, Little Trisha, overjoyed at the thought of learning how to read struggles when she finds that all the letters and numbers get jumbled up. Her classmates make matters worse by calling her "dummy." Finally, in fifth grade, she is lucky enough to have a teacher who recognizes Trisha's incredible artistic ability, understands her problem, and takes the time to lead her to the magic of reading. 
 9780590411455
 The Little Red Hen
 Lucinda
 McQueen
 Unknown
 Preschool - 3
-The little red hen lived with a goose, a cat, and a dog, all who were lazy. Would not do anything to help the hen. The hen planted, cut, and took care of the wheat she was growing, and even though she asked the goose, the cat, and the dog, she never got any help. When it was time for the baking of the bread that she made out of the wheat. The goose, the cat, and the dog will ready to help her eat it. But the hen has a little surprise for them.
-Unknown
+Unknown 
+The little red hen lived with a goose, a cat, and a dog, all who were lazy. Would not do anything to help the hen. The hen planted, cut, and took care of the wheat she was growing, and even though she asked the goose, the cat, and the dog, she never got any help. When it was time for the baking of the bread that she made out of the wheat. The goose, the cat, and the dog will ready to help her eat it. But the hen has a little surprise for them. 
 9780618439539
 Tackylocks and the Three Bears
 Helen
 Lester
 Unknown
 Preschool - 3
-Unknown
-Unknown
+Unknown 
+Unknown 
 9780805068313
 The Scrambled States of America
 Laurie
 Keller
 Unknown
 Preschool - 2
-Unknown
-Unknown
+Unknown 
+Unknown 
 9780395453568
 Fritz and the Beautiful Horses
 Jan
 Brett
 Unknown
 Preschool - 3
-Unknown
-Unknown
+Unknown 
+Unknown 
 9780152015404
 Stellaluna
 Janell
 Cannon
 Unknown
 Preschool - 3
-Unknown
-Unknown
+Unknown 
+Unknown 
 9780395562338
 Tacky the Penguin
 Helen
 Lester
 Unknown
 Preschool - 3
-Unknown
-Unknown
+Unknown 
+Unknown 
 9780395353936
 The Mysteries of Harris Burdick
 Chris
 Van Allsburg
 Unknown
 Preschool - 3
-Unknown
-Unknown
+Unknown 
+Unknown 
 9780064431439
 Caps for Sale
 Esphyr
 Slobodkina
 Unknown
 Preschool - 3
-Unknown
+Unknown 
 Unknown 
 9780679826422
 Junie B. Jones and the Stupid Smelly Bus
@@ -84,13 +84,1901 @@ Park
 Barbara
 Fiction
 2.0
-Comedy
 In her own words, a young girl describes her feelings about starting kindergarten and what she does when she decides not to ride the bus home. 
+Comedy 
 9780679894575
 A to Z Mysteries - The Invisible Island
 Roy
 Ron
 Mystery
 1 - 4
-Mystery
 While picnicking on Squaw Island, Dink, Josh, and Ruth Rose find a hundred-dollar bill, and when they return to explore further they find an entire cave full of money. 
+Mystery 
+0
+Heartbeat
+Sharon
+Creech
+Poetry
+Nah
+Nah 
+Poetry 
+0
+Love That Dog
+Sharon
+Creech
+Poetry
+Nah
+Nah 
+Poetry 
+0
+Among The Impostors
+Margaret
+Haddix
+Haddix
+Nah
+Nah 
+Haddix 
+0
+Among The Hidden
+Margaret
+Haddix
+Haddix
+Nah
+Nah 
+Haddix 
+0
+Among The Brave
+Margaret
+Haddix
+Haddix
+Nah
+Nah 
+Haddix 
+0
+Just Ella
+Margaret
+Haddix
+Haddix
+Nah
+Nah 
+Haddix 
+0
+Blubber
+Judy
+Blume
+High Quality
+Nah
+Nah 
+High Quality 
+0
+Tales Of A Fourth Grade Nothing
+Judy
+Blume
+High Quality
+Nah
+Nah 
+High Quality 
+0
+Frindle
+Andrew
+Clements
+High Quality
+Nah
+Nah 
+High Quality 
+0
+The Last Holiday Concert
+Andrew
+Clements
+High Quality
+Nah
+Nah 
+High Quality 
+0
+Christmas After All
+Kathryn
+Lasky
+Dear America
+Nah
+Nah 
+Dear America 
+0
+When Will This Cruel War Be Over?
+Barry
+Denenberg
+Dear America
+Nah
+Nah 
+Dear America 
+0
+Marie Antoinette
+Kathryn
+Lasky
+Dear America
+Nah
+Nah 
+Dear America 
+0
+The Diary Of Clotee, A Slave Girl
+Patricia
+McKissack
+Dear America
+Nah
+Nah 
+Dear America 
+0
+A Civil War Union Soldier
+Jim
+Murphy
+Dear America
+Nah
+Nah 
+Dear America 
+0
+The Fences Between Us
+Kirby
+Larson
+Dear America
+Nah
+Nah 
+Dear America 
+0
+The Lewis And Clark Expedition
+Kathryn
+Lasky
+Dear America
+Nah
+Nah 
+Dear America 
+0
+A Light In The Storm
+Karen
+Hesse
+Dear America
+Nah
+Nah 
+Dear America 
+0
+Recess, Rhyme, And Reason
+Patricia
+Stockland
+Poetry
+Nah
+Nah 
+Poetry 
+0
+Earthshake
+Lisa
+Westberg
+Poetry
+Nah
+Nah 
+Poetry 
+0
+Rutherford B, Who Was He?
+Marilyn
+Singer
+Poetry
+Nah
+Nah 
+Poetry 
+0
+Animals Animals
+Eric
+Carle
+Poetry
+Nah
+Nah 
+Poetry 
+0
+Countryside Treasury
+Dick
+King-Smith
+Poetry
+Nah
+Nah 
+Poetry 
+0
+The Blood-Hungry Spleen
+Allan
+Wolf
+Poetry
+Nah
+Nah 
+Poetry 
+0
+Kites Sail High
+Ruth
+Heller
+Grammar
+Nah
+Nah 
+Grammar 
+0
+Merry-Go-Round
+Ruth
+Heller
+Grammar
+Nah
+Nah 
+Grammar 
+0
+A Cache Of Jewels
+Ruth
+Heller
+Grammar
+Nah
+Nah 
+Grammar 
+0
+The Ugly Duckling
+Hans
+Andersen
+High Quality
+Nah
+Nah 
+High Quality 
+0
+Who Is Coming To Our House?
+Joseph
+Slate
+High Quality
+Nah
+Nah 
+High Quality 
+0
+The Boo-Hoo Witch
+Janet
+Craig
+High Quality
+Nah
+Nah 
+High Quality 
+0
+Chicka Chicka Boom Boom
+John
+Archambault
+High Quality
+Nah
+Nah 
+High Quality 
+0
+King Bidgood's In The Bathtub
+Audrey
+Wood
+High Quality
+Nah
+Nah 
+High Quality 
+0
+Duck At The Door
+Jackie
+Urbanovic
+High Quality
+Nah
+High Quality 
+Nah 
+0
+Biscuit's Birthday
+Alyssa
+Capucilli
+High Quality
+Nah
+High Quality 
+Nah 
+0
+The Principal From The Black Lagoon
+Mike
+Thaler
+High Quality
+Nah
+High Quality 
+Nah 
+0
+How To Get A Girlfriend
+Kindergarden
+Class
+High Quality
+Nah
+High Quality 
+Nah 
+0
+Help! We Need A Title!
+Henve
+Tullet
+High Quality
+Nah
+High Quality 
+Nah 
+0
+Love You Forever
+Robert
+Munsch
+High Quality
+Nah
+High Quality 
+Nah 
+0
+Rumpelstiltskin
+Jakob
+Grimm
+High Quality
+Nah
+High Quality 
+Nah 
+0
+Millions Of Cats
+Wanda
+Gag
+High Quality
+Nah
+High Quality 
+Nah 
+0
+The Little Engine That Could
+Watty
+Piper
+High Quality
+Nah
+High Quality 
+Nah 
+0
+Duck For President
+Doreen
+Cronin
+High Quality
+Nah
+High Quality 
+Nah 
+0
+What Are You So Grumpy About?
+Tom
+Lichtenneld
+High Quality
+Nah
+High Quality 
+Nah 
+0
+Road Hog
+Barbara
+Hazen
+High Quality
+Nah
+High Quality 
+Nah 
+0
+A Band Of Coyotes
+Kindergarden
+Class
+High Quality
+Nah
+High Quality 
+Nah 
+0
+A Mother For Choco
+Keiko
+Kasza
+High Quality
+Nah
+High Quality 
+Nah 
+0
+Biscuit's Christmas Eve
+Alyssa
+Capucilli
+High Quality
+Nah
+High Quality 
+Nah 
+0
+The Force Awakes
+Elizabeth
+Schaefer
+High Quality
+Nah
+High Quality 
+Nah 
+0
+School Daze
+Astrid
+Holm
+High Quality
+Nah
+High Quality 
+Nah 
+0
+Teddy Bears Are Always There
+Jill
+Wolf
+High Quality
+Nah
+High Quality 
+Nah 
+0
+Alphaboat
+Michael
+Chesworth
+High Quality
+Nah
+High Quality 
+Nah 
+0
+The Mitten
+Alvin
+Tresselt
+High Quality
+Nah
+High Quality 
+Nah 
+0
+Purple, Green And Yellow
+Robert
+Munsch
+High Quality
+Nah
+High Quality 
+Nah 
+0
+Smudge's Day Out
+James
+Herriot
+High Quality
+Nah
+High Quality 
+Nah 
+0
+The Green Frog
+Martin
+Hogeweg
+High Quality
+Nah
+High Quality 
+Nah 
+0
+Curious George Rides A Bike
+H
+Rey
+High Quality
+Nah
+High Quality 
+Nah 
+0
+TinkerBell And The Great Fairy Rescue
+Kimberly
+Morris
+High Quality
+Nah
+High Quality 
+Nah 
+0
+Too Many Toys
+David
+Shannon
+High Quality
+Nah
+High Quality 
+Nah 
+0
+Only One Woof
+James
+Herriot
+High Quality
+Nah
+High Quality 
+Nah 
+0
+Helen Keller A Determined Life
+Elizabeth
+MacLeod
+Biography
+Nah
+Biography 
+Nah 
+0
+Will You Sign Here, John Hancock?
+Jean
+Fritz
+Biography
+Nah
+Biography 
+Nah 
+0
+Who Says Women Can't Be Doctors?
+Tanya
+Stone
+Biography
+Nah
+Biography 
+Nah 
+0
+The Boy Who Invented TV
+Kathleen
+Krull
+Biography
+Nah
+Biography 
+Nah 
+0
+How They Choked
+Georgia
+Bragg
+Biography
+Nah
+Biography 
+Nah 
+0
+My Name Is Not Isabella
+Jennifer
+Fosberry
+Biography
+Nah
+Biography 
+Nah 
+0
+Abe Lincoln's Hat
+Martha
+Brenner
+Biography
+Nah
+Biography 
+Nah 
+0
+Johnny Appleseed
+David
+Harrison
+Biography
+Nah
+Biography 
+Nah 
+0
+Teddy Roosevelt The People's President
+Sharon
+Gayle
+Biography
+Nah
+Biography 
+Nah 
+0
+Tut's Mummy Lost...And Found
+Judy
+Donnelly
+Biography
+Nah
+Biography 
+Nah 
+0
+The Kingfisher First Dictionary
+Multiple
+People
+Reference
+Nah
+Reference 
+Nah 
+0
+Childrens' Encyclopedia
+Multiple
+People
+Reference
+Nah
+Reference 
+Nah 
+0
+Junior Encyclopedia Of Animated Characters
+Disney
+Disney
+Reference
+Nah
+Reference 
+Nah 
+0
+Mammal
+Eyewitness
+Books
+Reference
+Nah
+Reference 
+Nah 
+0
+Does It Always Rain In The Rain Forest
+Melvin
+Berger
+Animals
+Nah
+Animals 
+Nah 
+0
+Animal World
+Capella
+Capella
+Animals
+Nah
+Animals 
+Nah 
+0
+Do Plants Eat Meat
+Southwestern
+Southwester
+Animals
+Nah
+Animals 
+Nah 
+0
+My LIfe In The Wild
+Meredith
+Costain
+Animals
+Nah
+Animals 
+Nah 
+0
+The Butterfly Book
+Ernest
+Williams
+Animals
+Nah
+Animals 
+Nah 
+0
+Big Bad Bugs
+Tracey
+Dils
+Animals
+Nah
+Animals 
+Nah 
+0
+Actual Size
+Steve
+Jenkins
+Animals
+Nah
+Animals 
+Nah 
+0
+Shark Attack!
+Gail
+Tuchman
+Animals
+Nah
+Animals 
+Nah 
+0
+Tortoises And Turtles
+Sally
+Morgan
+Animals
+Nah
+Animals 
+Nah 
+0
+Princess Adventure Stories
+Disney
+Multiple
+Disney
+Nah
+Disney 
+Nah 
+0
+Aladdin Adventure In The Cave Of Wonders
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah 
+0
+Peter Pan
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah 
+0
+The Lion King
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah 
+0
+Alice In Wonderland
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah 
+0
+Lady And The Tramp
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah 
+0
+101 Dalmatians
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah 
+0
+Beauty And The Beast Friends Are Sweet
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah 
+0
+Lady And The Tramp
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah 
+0
+Bambi
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah 
+0
+Monsters, Inc
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah 
+0
+Tarzan
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah 
+0
+Pinocchio
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah 
+0
+101 Dalmatians
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah 
+0
+Magical Moments
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah 
+0
+Hercules
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah 
+0
+I Am A Princess
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah 
+0
+Way To Go, Simba!
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah 
+0
+Snow White And The Seven Dwarfs
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah 
+0
+Everything I Need To KNow I Learned From A Disney LIttle Golden Book
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah 
+0
+Unspoken
+Hency
+Cole
+Non-Fiction
+Nah
+Non-Fiction 
+Nah 
+0
+Way To Go! Finding Your Way With A Compass
+Sharon
+Sharth
+Non-Fiction
+Nah
+Non-Fiction 
+Nah 
+0
+A Storm Called Katrina
+Myron
+Uhlberg
+Non-Fiction
+Nah
+Non-Fiction 
+Nah 
+0
+TV Reporters
+Tracey
+Boraas
+Non-Fiction
+Nah
+Non-Fiction 
+Nah 
+0
+Rocks And MInerals
+Kris
+Hirschmann
+Non-Fiction
+Nah
+Non-Fiction 
+Nah 
+0
+Follow The Water From Brook To Ocean
+Arthur
+Dorros
+Non-Fiction
+Nah
+Non-Fiction 
+Nah 
+0
+I'm A Seed
+Jean
+Marzollo
+Non-Fiction
+Nah
+Non-Fiction 
+Nah 
+0
+Make A Pizza
+Joanne
+Mattern
+Non-Fiction
+Nah
+Non-Fiction 
+Nah 
+0
+The Wizard Of Oz
+Frank
+Baum
+High Quality
+Nah
+High Quality 
+Nah 
+0
+Abe Lincoln Log Cabin To White House
+Sterling
+North
+Biography
+Nah
+Biography 
+Nah 
+0
+And To Think That I Saw It On MulBerry Street
+Dr.
+Seuss
+Seuss
+Nah
+Nah 
+Seuss 
+0
+Oh, The Thinks You Can Think!
+Dr.
+Seuss
+Seuss
+Nah
+Nah 
+Seuss 
+0
+The Cat In The Hat
+Dr.
+Seuss
+Seuss
+Nah
+Nah 
+Seuss 
+0
+I Can Read With My Eyes Shut!
+Dr.
+Seuss
+Seuss
+Nah
+Nah 
+Seuss 
+0
+Summer
+Dr.
+Seuss
+Seuss
+Nah
+Nah 
+Seuss 
+0
+Cam Jansen And The Wedding Cake Mystery
+David
+Adler
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Pony Crazy
+Catherine
+Mapka
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Just Helping My Dad
+Mercer
+Mayer
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Pete At The Beach
+James
+Dean
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Drop It, Rocket!
+Tad
+HIlls
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+These Are The Avengers
+Marvel
+Marvel
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Thumbelina
+Barbie
+Barbie
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+I LIke Bugs
+Margaret
+Brown
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Fancy Nancy And The Boy From Paris
+Jane
+O'Connor
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Play Ball, Amelia Bedelia
+Peggy
+Parish
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Amelia Bedelia Makes A Friend
+Herman
+Parish
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Teach Us, Amedlia Bedelia
+Peggy
+Parish
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Come Back, Amelia Bedelia
+Peggy
+Parish
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Young Cam Jansen And The Library Mystery
+David
+Adler
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Young Cam Jansen And The Missing Cookie
+David
+Adler
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Yeh-Shen A Cinderella Story From China
+Ai-Ling
+Louie
+Cinderella
+Nah
+Nah 
+Cinderella 
+0
+Cinder-elly
+Frances
+Minters
+Cinderella
+Nah
+Nah 
+Cinderella 
+0
+Cinderella Penguin
+Janet
+Perlman
+Cinderella
+Nah
+Nah 
+Cinderella 
+0
+Cinderelephant
+Emma
+Dodd
+Cinderella
+Nah
+Nah 
+Cinderella 
+0
+Bigfoot Cinderrrrrella
+Tony
+Johnston
+Cinderella
+Nah
+Nah 
+Cinderella 
+0
+Mufaro's Beautiful Daughters
+John
+Steptoe
+Cultural
+Nah
+Nah 
+Cultural 
+0
+The Usborne Introduction To Asia
+Usborne
+Usborne
+Around The World
+Nah
+Nah 
+Around The World 
+0
+Festivals Of The World China
+Colin
+Cheong
+Around The World
+Nah
+Nah 
+Around The World 
+0
+If America Were A Village
+David
+Smith
+Around The World
+Nah
+Nah 
+Around The World 
+0
+Sugar And Spice A Story Of Trade
+Duncan
+Searl
+Around The World
+Nah
+Nah 
+Around The World 
+0
+Egypt The People
+Bobbie
+Kalman
+Around The World
+Nah
+Nah 
+Around The World 
+0
+Elmer In The Snow
+David
+McKee
+Seasons
+Nah
+Nah 
+Seasons 
+0
+Thanksgiving Day
+Gail
+Gibbons
+Seasons
+Nah
+Nah 
+Seasons 
+0
+Two Bad Pilgrims
+Kathryn
+Lasky
+Seasons
+Nah
+Nah 
+Seasons 
+0
+The Pilgrims' First Thanksgiving
+Ann
+McGovern
+Seasons
+Nah
+Nah 
+Seasons 
+0
+A LIttle Bit Of Winter
+Paul
+Stewart
+Seasons
+Nah
+Nah 
+Seasons 
+0
+The First Day Of Winter
+Denise
+Fleming
+Seasons
+Nah
+Nah 
+Seasons 
+0
+A Ghost Tale For Chirstmas Time
+Mary
+Osborne
+Magic Treehouse
+Nah
+Nah 
+Magic Treehouse 
+0
+Just A Dream
+Chris
+Allsburg
+Environment
+Nah
+Nah 
+Environment 
+0
+Why Should I Recycle?
+Jen
+Green
+Environment
+Nah
+Nah 
+Environment 
+0
+Help Me Say Goodbye
+Janis
+Silverman
+Personal
+Nah
+Nah 
+Personal 
+0
+Eat Healthy, Feel Great
+William
+Sears
+Personal
+Nah
+Nah 
+Personal 
+0
+Sense And Sensibility
+Jane
+Austen
+Classic
+Nah
+Nah 
+Classic 
+0
+Anne Of Green Gables
+L
+Montgomery
+Classic
+Nah
+Nah 
+Classic 
+0
+Jane Eyre
+Charlotte
+Bronte
+Classic
+Nah
+Nah 
+Classic 
+0
+The Adventures Of Huckleberry Finn
+Mark
+Twain
+Classic
+Nah
+Nah 
+Classic 
+0
+The Lost Summer
+Louisa
+Alcott
+Classic
+Nah
+Nah 
+Classic 
+0
+Oni Wa Soto
+Cathy
+Spagnoli
+Cultural
+Nah
+Nah 
+Cultural 
+0
+Something From Nothing
+Phoebe
+Gilman
+Cultural
+Nah
+Nah 
+Cultural 
+0
+The Green Lion Of Zion Street
+Julia
+Fields
+Cultural
+Nah
+Nah 
+Cultural 
+0
+Leola And The Honeybears
+Melodye
+Rosales
+Cultural
+Nah
+Nah 
+Cultural 
+0
+An Amish Christmas
+Richard
+Ammon
+Cultural
+Nah
+Nah 
+Cultural 
+0
+The Trojan War
+Bernard
+Evslin
+History
+Nah
+Nah 
+History 
+0
+If
+David
+Smith
+History
+Nah
+Nah 
+History 
+0
+The Last 500 Years
+Usborne
+World History
+History
+Nah
+Nah 
+History 
+0
+Discovering The Titantic
+Eric
+Kentley
+History
+Nah
+Nah 
+History 
+0
+Teaching With Favorite Leo Lionni Books
+Leo
+Lionni
+Leo Lionni
+Nah
+Nah 
+Leo Lionni 
+0
+The Mixed-Up Chameleon
+Eric
+Carle
+HIgh Quality
+Nah
+Nah 
+High Quality 
+0
+Swimmy
+Leo
+Lionni
+Leo Lionni
+Nah
+Nah 
+Leo Lionni 
+0
+Frederick
+Leo
+Lionni
+Leo Lionni
+Nah
+Nah 
+Leo Lionni 
+0
+Sees Starts
+Nancy
+White
+The Magic School Bus
+Nah
+Nah 
+The Magic School Bus 
+0
+Plants Seed
+Nancy
+White
+The Magic School Bus
+Nah
+Nah	 
+The Magic School Bus 
+0
+Gets All Dried Up
+Nancy
+White
+The Magic School Bus
+Nah
+Nah 
+The Magic School Bus 
+0
+Gets Eaten
+Nancy
+White
+The Magic School Bus
+Nah
+Nah 
+The Magic School Bus 
+0
+Butterfly And The Bog Beast
+Nancy
+White
+The Magic School Bus
+Nah
+Nah 
+The Magic School Bus 
+0
+Flutes
+Barbie
+Turner
+Art
+Nah
+Nah 
+Art 
+0
+Seen Art?
+Jon
+Scieszka
+Art
+Nah
+Nah 
+Art 
+0
+The Ugly Duckling
+Patito
+Feo
+Multilingual
+Nah
+Nah 
+Multilingual 
+0
+I Wish You More
+Amy
+Rosenthal
+Multilingual
+Nah
+Nah 
+Multilingual 
+0
+The World's Best Fairy Tales
+Reader's
+Digest
+Fairy Tales
+Nah
+Fairy Tales
+Nah 
+0
+Banner In The Sky
+James
+Ullman
+Unknown
+Nah
+Unknown
+Nah 
+0
+Diary Of A Wimpy
+Jeff
+Kinney
+Unknown
+Nah
+Unknown
+Nah 
+0
+The Secret Garden
+Frances
+Burnett
+Unknown
+Nah
+Unknown
+Nah 
+0
+How To Train Your Dragon Book 1
+Cressida
+Cowell
+Unknown
+Nah
+Unknown
+Nah 
+0
+Hatchet
+Gary
+Paulsen
+Unknown
+Nah
+Unknown
+Nah 
+0
+Jeremy Fink And The Meaning Of Life
+Wendy
+Mass
+Unknown
+Nah
+Unknown
+Nah 
+0
+The Runaway Bunny
+Margaret
+Brown
+Unknown
+Nah
+Unknown
+Nah 
+0
+The Book Of Dragons
+E.
+Nesbit
+Unknown
+Nah
+Unknown
+Nah 
+0
+Johnny Tremain
+Esther
+Forbes
+Unknown
+Nah
+Unknown
+Nah 
+0
+The Red Badge Of Courage
+Stephen
+Crane
+Unknown
+Nah
+Unknown
+Nah 
+0
+My Side Of The Mountain
+Jean
+George
+Unknown
+Nah
+Unknown
+Nah 
+0
+Alice In Wonderland
+Lewis
+Carroll
+Unknown
+Nah
+Unknown
+Nah 
+0
+The Chimney Witches
+Victoria
+Whitehead
+Unknown
+Nah
+Unknown
+Nah 
+0
+The First Year Of Teaching
+Pearl
+Kane
+Unknown
+Nah
+Unknown
+Nah 
+0
+Ellie McDoodle New Kid In School
+Ruth
+Barshaw
+Unknown
+Nah
+Unknown
+Nah 
+0
+Labrador On The Lawn
+Ben
+Baglio
+Unknown
+Nah
+Unknown
+Nah 
+0
+Doggie Dreams
+Julia
+DeVillers
+Unknown
+Nah
+Unknown
+Nah 
+0
+The Cold And Hot Winte
+Johanna
+Hurwitz
+Unknown
+Nah
+Unknown
+Nah 
+0
+The Enemy Above
+Michael
+Spradlin
+Unknown
+Nah
+Unknown
+Nah 
+0
+A Single Shard
+Linda
+Park
+Unknown
+Nah
+Unknown
+Nah 
+0
+The Silver Pencil
+Alice
+Dalgliesh
+Unknown
+Nah
+Unknown
+Nah 
+0
+Around The World In Eighty Days
+Jules
+Verne
+Unknown
+Nah
+Unknown
+Nah 
+0
+The World According To Humphrey
+Betty
+Birney
+Unknown
+Nah
+Unknown
+Nah 
+0
+All The Places To Love
+Patricia
+MacLachlan
+Unknown
+Nah
+Unknown
+Nah 
+0
+The Day The Crayons Quit
+Drew
+Daywalt
+Unknown
+Nah
+Unknown
+Nah 
+0
+Aesop's Fables
+Ann
+McGovern
+Unknown
+Nah
+Unknown
+Nah 
+0
+The Sea Dog
+Jenny
+Dale
+Unknown
+Nah
+Unknown
+Nah 
+0
+Trouble River
+Betsy
+Byars
+Unknown
+Nah
+Unknown
+Nah 
+0
+Gone-Away Lake
+Elizabeth
+Enright
+Unknown
+Nah
+Unknown
+Nah 
+0
+The Westing Game
+Ellen
+Raskin
+Unknown
+Nah
+Unknown
+Nah 
+0
+The Homework Machine
+Dan
+Gutman
+Unknown
+Nah
+Unknown
+Nah 
+0
+To The Stars, Isabelle
+Laurence
+Yep
+Unknown
+Nah
+Unknown
+Nah 
+0
+Summer Wth Elisa
+Johanna
+Hurwitz
+Unknown
+Nah
+Unknown
+Nah 
+0
+The Hideout
+Peg
+Kehret
+Unknown
+Nah
+Unknown
+Nah 
+0
+Beardance
+Will
+Hobbs
+Unknown
+Nah
+Unknown
+Nah 
+0
+Never Say Die
+Will
+Hobbs
+Unknown
+Nah
+Unknown
+Nah 
+0
+Touching Spirit Bear
+Ben
+Mikaelsen
+Unknown
+Nah
+Unknown
+Nah 
+0
+In The Stone Circle
+Elizabeth
+Kimmel
+Unknown
+Nah
+Unknown
+Nah 
+0
+The Secret In The Woods
+Lois
+Leppard
+Unknown
+Nah
+Unknown
+Nah 
+0
+Miracles On Maple Hill
+Virginia
+Sorensen
+Unknown
+Nah
+Unknown
+Nah 
+0
+No Dogs Allowed!
+Bill
+Wallace
+Unknown
+Nah
+Unknown
+Nah 
+0
+Dream Factory
+Brad
+Barkley
+Unknown
+Nah
+Unknown
+Nah 
+0
+Duck Duck Moose
+Dave
+Horowitz
+Unknown
+Nah
+Unknown
+Nah 
+0
+Cinderella (As If You Didn't Already Know The Story)
+Barbara
+Ensor
+Unknown
+Nah
+Unknown
+Nah 
+0
+Wringer
+Jerry
+Spinelli
+Unknown
+Nah
+Unknown
+Nah 
+0
+Pup At The Palace
+Ben
+Baglio
+Unknown
+Nah
+Unknown
+Nah 
+0
+Keeping Safe The Stars
+Sheila
+O'Connor
+Unknown
+Nah
+Unknown
+Nah 
+0
+Gallop To The Sea
+Sharon
+Siamon
+Unknown
+Nah
+Unknown
+Nah 
+0
+Definitely Cool
+Brenda
+Wilkinson
+Unknown
+Nah
+Unknown
+Nah 
+0
+Love Letters
+Christie
+Wells
+Unknown
+Nah
+Unknown
+Nah 
+0
+The Stranger
+Albert
+Camus
+Unknown
+Nah
+Unknown
+Nah 
+0
+Beauty And The Beast
+Robyn
+Bryant
+Unknown
+Nah
+Unknown
+Nah 
+0
+Charlotte's Web
+E.B.
+White
+Unknown
+Nah
+Unknown
+Nah 
+0
+Evil On The Bayou
+Richie
+Cusick
+Unknown
+Nah
+Unknown
+Nah 

@@ -2,6 +2,8 @@ package main;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -47,6 +49,33 @@ public class Library {
 	}
 	
 	//Actions of the library
+	
+	public void deleteBook(Book b) {
+		String authorFirst = b.getAuthorFirst();
+		int indexToDelete = -1;
+		for(int i = 0; i < books.size(); i++) {
+			if(books.get(i).getAuthorFirst().equals(authorFirst)) {
+				indexToDelete = i;
+			}
+		}
+		books.remove(indexToDelete);
+	}
+	
+	public void reWriteLibrary() {
+		
+		//Need to rewrite the txt file
+    	File fold=new File("src/main/isbn.txt");
+		try {
+    	    FileWriter f2 = new FileWriter(fold, false);
+    	    for(int i = 0; i < books.size(); i++) {
+    	    	f2.write(books.get(i).toString());
+    	    }
+    	    
+    	    f2.close();
+    	} catch (IOException f) {
+    	    f.printStackTrace();
+    	}    
+	}
 	
 	public void viewBooks() {
 		for(Book b : books) {

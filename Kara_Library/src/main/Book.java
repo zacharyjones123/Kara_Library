@@ -10,6 +10,7 @@ public class Book {
 	private String grade;
 	private String description;
 	private String subject;
+	private int rating;
 	
 	public Book() {
 		this.ISBN = null;
@@ -20,6 +21,7 @@ public class Book {
 		this.grade = null;
 		this.description = null;
 		this.subject = null;
+		rating = -1;
 	}
 	
 	public Book(String ISBN) {
@@ -35,6 +37,7 @@ public class Book {
 		this.grade = grade.replace("\n", "").replace("\r", "");
 		this.description = description.replace("\n", "").replace("\r", "");
 		this.subject = subject.replace("\n", "").replace("\r", "");
+		rating = 0;
 		
 		//Ok, and every 10 words, add an enter in the description
 		String temp = "";
@@ -85,6 +88,10 @@ public class Book {
 		return subject;
 	}
 	
+	public int getRating() {
+		return rating;
+	}
+	
 	//Setters (Mutators)
 	
 	public void setISBN(String ISBN) {
@@ -119,8 +126,13 @@ public class Book {
 		this.subject = subject;
 	}
 	
+	public void setRating(int rating) {
+		this.rating = rating;
+	}
+	
 	public String toString() {
 		String s = "";
+		System.out.println(ISBN + "------------");
 		s += ISBN + "\n";
 		s += title + "\n";
 		s += authorFirst + "\n";
@@ -130,7 +142,7 @@ public class Book {
 		s += subject + "\n";
 		String text = description;
 		text = text.replace("\n", "").replace("\r", "");
-		s += text;
+		s += text + "\n";
 		return s;
 	}
 

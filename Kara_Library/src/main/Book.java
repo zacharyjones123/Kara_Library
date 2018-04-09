@@ -28,7 +28,10 @@ public class Book {
 		this.ISBN = ISBN;
 	}
 	
-	public Book(String ISBN, String title, String authorFirst, String authorLast, String genre, String grade, String description, String subject) {
+	public Book(String ISBN, String title,
+				String authorFirst, String authorLast,
+				String genre, String grade,
+				String description, String subject) {
 		this.ISBN = ISBN.replace("\n", "").replace("\r", "");
 		this.title = title.replace("\n", "").replace("\r", "");
 		this.authorLast = authorLast.replace("\n", "").replace("\r", "");
@@ -42,11 +45,15 @@ public class Book {
 		//Ok, and every 10 words, add an enter in the description
 		String temp = "";
 		String[] splitter = description.split(" ");
-		for(int i = 0; i < splitter.length; i++) {
-			temp += splitter[i] + " ";
-			if(i % 10 == 0 && i != 0) {
+		if(!(splitter.length == 1)) {
+			for(int i = 0; i < splitter.length; i++) {
+				temp += splitter[i] + " ";
+					if(i % 10 == 0 && i != 0) {
 				temp += "\n";
+					}
 			}
+		} else {
+			temp = description;
 		}
 		
 		this.description = temp;

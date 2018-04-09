@@ -11,6 +11,18 @@ Toyota
 Y
 
 Truck
+Ford
+Focus
+34000
+Y
+
+Car
+Audi
+Infinity
+33000
+n
+
+Truck
 GMC
 2008
 6500

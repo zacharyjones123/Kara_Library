@@ -51,10 +51,9 @@ public class Library {
 	//Actions of the library
 	
 	public void deleteBook(Book b) {
-		String authorFirst = b.getAuthorFirst();
 		int indexToDelete = -1;
 		for(int i = 0; i < books.size(); i++) {
-			if(books.get(i).getAuthorFirst().equals(authorFirst)) {
+			if(books.get(i).isEquals(b)) {
 				indexToDelete = i;
 			}
 		}

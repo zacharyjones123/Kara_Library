@@ -31,7 +31,7 @@ public class Book {
 	public Book(String ISBN, String title,
 				String authorFirst, String authorLast,
 				String genre, String grade,
-				String description, String subject) {
+				String subject,String description) {
 		this.ISBN = ISBN.replace("\n", "").replace("\r", "");
 		this.title = title.replace("\n", "").replace("\r", "");
 		this.authorLast = authorLast.replace("\n", "").replace("\r", "");
@@ -151,6 +151,48 @@ public class Book {
 		text = text.replace("\n", "").replace("\r", "");
 		s += text + "\n";
 		return s;
+	}
+	
+	public boolean isEquals(Book b) {
+		boolean isTrue = true;
+		
+		if(!this.getISBN().equals(b.getISBN())) {
+			isTrue = false;
+		}
+		
+		if(!this.getTitle().equals(b.getTitle())) {
+			isTrue = false;
+		}
+		
+		if(!this.getAuthorFirst().equals(b.getAuthorFirst())) {
+			isTrue = false;
+		}
+		
+		if(!this.getAuthorLast().equals(b.getAuthorLast())) {
+			isTrue = false;
+		}
+		
+		if(!this.getGenre().equals(b.getGenre())) {
+			isTrue = false;
+		}
+		
+		if(!this.getGrade().equals(b.getGrade())) {
+			isTrue = false;
+		}
+		
+		if(!this.getDescription().equals(b.getDescription())) {
+			isTrue = false;
+		}
+		
+		if(!this.getSubject().equals(b.getSubject())) {
+			isTrue = false;
+		}
+		
+		if(this.getRating() != b.getRating()) {
+			isTrue = false;
+		}
+		
+		return isTrue;
 	}
 
 }

@@ -101,6 +101,7 @@ public class MainFrame {
     static JFrame bookFrame;
     static JFrame displayBookFrame;
     static JFrame deleteBookFrame;
+    static JFrame editBookFrame;
 	
 	private static void createAndShowGUI() {
 		////////////////////
@@ -275,6 +276,8 @@ public class MainFrame {
 		            	//We need to search for a certain word
 		            	//Need to see what the JComboBox is
 		            	
+		            	frame.getContentPane().removeAll();
+		            	
 		            	//Is the search box empty?
 		            	if(txt_search.getText().equals("")) {
 		            		addComponentsToPane(frame.getContentPane(), library);
@@ -282,7 +285,6 @@ public class MainFrame {
 		            	} else {
 		            		
 		            		if (((String)cmb_search.getSelectedItem()).equals("authorFirst")){
-		            			System.out.println(txt_search.getText());
 		            			//Then need to search for author entered
 		            			addComponentsToPane(frame.getContentPane(), library, "authorFirst", txt_search.getText());
 		            			frame.revalidate();
@@ -333,7 +335,7 @@ public class MainFrame {
         Border blackline = BorderFactory.createLineBorder(Color.black);
         
        	button = new JButton(book.getTitle());
-       	button.setMaximumSize(new Dimension(length_main_frame/5, 25));
+       	button.setMaximumSize(new Dimension(length_main_frame/6, 25));
         button.setAlignmentX(Component.CENTER_ALIGNMENT);
         button.setBorder(blackline);
         button.addActionListener(new ActionListener() {
@@ -348,7 +350,7 @@ public class MainFrame {
             	JPanel panel = new JPanel();
             	panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
             	panel.setBorder(BorderFactory.createStrokeBorder(new BasicStroke(5.0f)));
-            	panel.setPreferredSize(new Dimension(210, 267)); //different because of the border addition
+            	panel.setPreferredSize(new Dimension(210, 295)); //different because of the border addition
             	
             	
             	//Picture
@@ -383,6 +385,45 @@ public class MainFrame {
             	tempLbl.setMaximumSize(new Dimension(label_book_width, label_book_height));
             	
             	panel.add(tempLbl);
+            	
+                JButton button = new JButton("Edit");
+                button.setFont(new Font("Serif", Font.PLAIN, fontSize_title));
+                button.setOpaque(true);
+                button.setBackground(Color.LIGHT_GRAY);
+                button.setForeground(Color.BLACK);
+                button.setBorder(BorderFactory.createLineBorder(Color.black));
+                button.setMaximumSize(new Dimension(label_book_width, label_book_height));
+                button.addActionListener(new ActionListener() {
+                    @Override
+                    public void actionPerformed(ActionEvent e) {
+                    	//Check to see if correct book
+                    	//TODO: Check the book
+                    	
+                    	//Need to edit a book
+                    	
+                    	//Create and set up the window.
+                    	editBookFrame = new JFrame("Add A Book");
+                    	editBookFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                    	editBookFrame.setIconImage(Toolkit.getDefaultToolkit().getImage("images/icons/book.png"));
+                    	editBookFrame.setCursor(new Cursor(Cursor.HAND_CURSOR));
+		                //frame.setUndecorated(true);
+                    	
+                    	System.out.println(book);
+		                
+		              //Set up the content pane.
+		            	addComponentsToPaneBookEdit(editBookFrame.getContentPane(), library, book);
+		         
+		                //Display the window.
+		            	editBookFrame.pack();
+		            	editBookFrame.setSize(length_addBook_frame, width_addBook_frame);
+		            	editBookFrame.setLocationRelativeTo(null); //To make center
+		                editBookFrame.setVisible(true); 
+                    	
+
+                    }
+                });
+                
+                panel.add(button);
             	/////////////////////
             	
             	contentPane.add(panel);
@@ -399,19 +440,25 @@ public class MainFrame {
         panel.add(button);
     
         label = new JLabel(book.getAuthorFirst() + " " + book.getAuthorLast());
-        label.setMaximumSize(new Dimension(length_main_frame/5, 25));
+        label.setMaximumSize(new Dimension(length_main_frame/6, 25));
         label.setAlignmentX(Component.CENTER_ALIGNMENT);
         label.setBorder(blackline);
         panel.add(label);
     
         label = new JLabel(book.getGenre());
-        label.setMaximumSize(new Dimension(length_main_frame/5, 25));
+        label.setMaximumSize(new Dimension(length_main_frame/6, 25));
         label.setAlignmentX(Component.CENTER_ALIGNMENT);
         label.setBorder(blackline);
         panel.add(label);
     
         label = new JLabel(book.getGrade());
-        label.setMaximumSize(new Dimension(length_main_frame/5, 25));
+        label.setMaximumSize(new Dimension(length_main_frame/6, 25));
+        label.setAlignmentX(Component.CENTER_ALIGNMENT);
+        label.setBorder(blackline);
+        panel.add(label);
+        
+        label = new JLabel(book.getISBN());
+        label.setMaximumSize(new Dimension(length_main_frame/6, 25));
         label.setAlignmentX(Component.CENTER_ALIGNMENT);
         label.setBorder(blackline);
         panel.add(label);
@@ -554,6 +601,73 @@ public class MainFrame {
 		
 	}
 	
+//This is used to make a JFrame to add a book to the frame
+	public static void addComponentsToPaneBookEdit(Container pane, Library library,  Book book) {
+		btn_update = new JButton("Update");
+		btn_update.setMnemonic(KeyEvent.VK_ENTER);
+		
+		JPanel panel = new JPanel();
+		panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+		
+		txt_title.setText(book.getTitle());
+		txt_author_first_name.setText(book.getAuthorFirst());
+		txt_author_last_name.setText(book.getAuthorLast());
+		txt_genre.setText(book.getGenre());
+		txt_isbn.setText(book.getISBN());
+		txt_grade_level.setText(book.getGrade());
+		txt_subject.setText(book.getSubject());
+		txt_description.setText(book.getDescription());
+		
+		panel.add(makeNewField("Name", lbl_title, txt_title));
+		panel.add(makeNewField("Author Name Name", lbl_author_first_name, txt_author_first_name));
+		panel.add(makeNewField("Author Last Name", lbl_author_last_name, txt_author_last_name));
+		panel.add(makeNewField("Genre", lbl_genre, txt_genre));
+		panel.add(makeNewField("ISBN", lbl_isbn, txt_isbn));
+		panel.add(makeNewField("Grade Level", lbl_grade_level, txt_grade_level));
+		panel.add(makeNewField("Subject", lbl_subject, txt_subject));
+		panel.add(makeNewField("Description", lbl_description, txt_description));
+		
+		
+		btn_update.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+            	//Check to see if correct book
+            	//TODO: Check the book
+            	
+            	//Add the book
+            	System.out.println("This is the txt_ibsn: " + txt_isbn.getText());
+            	library.deleteBook(book);
+            	library.addBook(new Book(txt_isbn.getText(), txt_title.getText(), txt_author_first_name.getText(),
+            					txt_author_last_name.getText(), txt_genre.getText(),
+            					txt_grade_level.getText(), txt_subject.getText(), txt_description.getText()));
+            	System.out.println("new subject: " + txt_subject.getText());
+            	
+            	
+            	//addComponentsToPane(frame.getContentPane(), library);
+            	frame.dispose();
+            	frame = null;
+            	editBookFrame.dispose();
+            	editBookFrame.revalidate();
+            	//bookFrame = null;
+            	createAndShowGUI();
+            	txt_title.setText("");
+            	txt_author_last_name.setText("");
+            	txt_author_first_name.setText("");
+            	txt_genre.setText("");
+            	txt_isbn.setText("");
+            	txt_grade_level.setText("");
+            	txt_description.setText("");
+            	txt_subject.setText("");
+
+            	library.reWriteLibrary(); 
+            	
+
+            }
+        });
+		panel.add(btn_update);
+		pane.add(panel);
+	}
+	
 	
 	public static void addComponentsToDeleteBook(Container pane, Library library) {
 		btn_delete.setMnemonic(KeyEvent.VK_ENTER);
@@ -579,7 +693,7 @@ public class MainFrame {
             	System.out.println("This is the txt_ibsn: " + txt_isbn.getText());
             	library.deleteBook(new Book(txt_isbn.getText(), txt_title.getText(), txt_author_first_name.getText(),
             					txt_author_last_name.getText(), txt_genre.getText(),
-            					txt_grade_level.getText(), txt_description.getText(), txt_subject.getText()));
+            					txt_grade_level.getText(), txt_subject.getText(), txt_description.getText()));
             	
             	
             	//addComponentsToPane(frame.getContentPane(), library);

@@ -95,22 +95,6 @@ Mystery
 While picnicking on Squaw Island, Dink, Josh, and Ruth Rose find a hundred-dollar bill, and when they return to explore further they find an entire cave full of money. 
 Mystery 
 0
-Heartbeat
-Sharon
-Creech
-Poetry
-Nah
-Nah 
-Poetry 
-0
-Love That Dog
-Sharon
-Creech
-Poetry
-Nah
-Nah 
-Poetry 
-0
 Among The Impostors
 Margaret
 Haddix
@@ -199,14 +183,6 @@ Nah
 Nah 
 Dear America 
 0
-The Diary Of Clotee, A Slave Girl
-Patricia
-McKissack
-Dear America
-Nah
-Nah 
-Dear America 
-0
 A Civil War Union Soldier
 Jim
 Murphy
@@ -238,14 +214,6 @@ Dear America
 Nah
 Nah 
 Dear America 
-0
-Recess, Rhyme, And Reason
-Patricia
-Stockland
-Poetry
-Nah
-Nah 
-Poetry 
 0
 Earthshake
 Lisa
@@ -1548,7 +1516,7 @@ Reader's
 Digest
 Fairy Tales
 Nah
-Fairy Tales
+Fairy Tales 
 Nah 
 0
 Banner In The Sky
@@ -1730,14 +1698,6 @@ Nah
 The World According To Humphrey
 Betty
 Birney
-Unknown
-Nah
-Unknown
-Nah 
-0
-All The Places To Love
-Patricia
-MacLachlan
 Unknown
 Nah
 Unknown
@@ -1927,14 +1887,6 @@ Nah
 Unknown
 Nah 
 0
-Gallop To The Sea
-Sharon
-Siamon
-Unknown
-Nah
-Unknown
-Nah 
-0
 Definitely Cool
 Brenda
 Wilkinson
@@ -1982,3 +1934,19 @@ Unknown
 Nah
 Unknown
 Nah 
+9780060540241
+Heartbeat
+Sharon
+Creech
+Poetry
+Nah
+Poetry
+Nah
+9780064409599
+Love That Dog
+Sharon
+Creech
+Poetry
+Nah
+Poetry
+Nah

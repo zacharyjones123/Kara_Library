@@ -1,0 +1,52 @@
+Stationary
+Ruler
+2016
+Sam Smith
+2.50
+Y
+ART490
+Y
+Gently
+
+Book
+World Atlas
+2012
+John Doe
+15.50
+Y
+RTA345
+Y
+Severe
+
+Stationary
+Calculator
+2014
+John Smith
+24.00
+N
+TYT988
+N
+N/A
+
+Book
+Fairy Tales
+2012
+Jane Smith
+19.99
+N
+RTT455
+N
+N/A
+
+Stationary
+White Board
+2016
+Lola Rose
+45.00
+Y
+IIO444
+N
+N/A
+
+
+

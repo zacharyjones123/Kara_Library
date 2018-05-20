@@ -160,7 +160,11 @@ public class Database {
 	public int numOfWorkingDays() {
 		int numOfWorkingDays = 0;
 		
-		//TODO: Complete numOfWorkingDays
+		for(Data d : data) {
+			if(d.getMoney() != 0.0) {
+				numOfWorkingDays++;
+			}
+		}
 		
 		return numOfWorkingDays;
 	}
@@ -172,7 +176,11 @@ public class Database {
 	public int numOfNonWorkingDays() {
 		int numOfNonWorkingDays = 0;
 		
-		//TODO: Complete numOfNonWorkingDays
+		for(Data d : data) {
+			if(d.getMoney() == 0.0) {
+				numOfNonWorkingDays++;
+			}
+		}
 		
 		return numOfNonWorkingDays;
 	}
@@ -182,48 +190,47 @@ public class Database {
 	 * @return num of diff people
 	 */
 	public int numOfDifferentPeople() {
-		int numOfDiffPeople = 0;
-		
-		//TODO: numOfDifferentPeople
-		
-		return numOfDiffPeople;
-	}
-	
-	/**
-	 * Returns a sorted list of the most popular
-	 * people
-	 * @return popular people
-	 */
-	public ArrayList<Data> listOfPopularPeople() {
-		ArrayList<Data> popular = new ArrayList<Data>();
-		
-		//TODO: Complete listOfPopularPeople
-		
-		return popular;
+		return students.size();
 	}
 	
 	/**
 	 * Returns the start of the data set
 	 * @return start day of set
 	 */
-	public String startOfData() {
-		String data = "";
+	public MyDate startOfData() {
+		MyDate date = null;
 		
-		//TODO: Complete startOfData()
+		for(Data d : data) {
+			if(date == null) {
+				date = d.getDate();
+			} else {
+				if(d.getDate().lessThan(date)) {
+					date = d.getDate();
+				}
+			}
+		}
 		
-		return data;
+		return date;
 	}
 	
 	/**
 	 * Returns the end of the data set
 	 * @return Last day of set
 	 */
-	public String endOfData() {
-		String data = "";
+	public MyDate endOfData() {
+		MyDate date = null;
 		
-		//TODO: Complete endOfData
+		for(Data d : data) {
+			if(date == null) {
+				date = d.getDate();
+			} else {
+				if(d.getDate().greaterThan(date)) {
+					date = d.getDate();
+				}
+			}
+		}
 		
-		return data;
+		return date;
 	}
 	
 	/**

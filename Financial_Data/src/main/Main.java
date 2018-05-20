@@ -29,6 +29,8 @@ public class Main {
 		System.out.println("This is the date: " + date);
 		System.out.println("I made: " + database.dayEarnings("4/26/2017"));
 		System.out.println("Interval test: " + database.intervalEarnings("4/25/2017", "4/27/2017"));
+		System.out.println("The start of the data is: " + database.startOfData());
+		System.out.println("The end of the data is: " + database.endOfData());
 
 	}
 

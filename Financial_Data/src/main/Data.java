@@ -13,7 +13,6 @@ public class Data {
 	private double money;
 	
 	public Data(String name, String date, String time, String subject, String type, String rating) {
-		super();
 		this.name = name;
 		this.date = new MyDate(date);
 		this.time = time;

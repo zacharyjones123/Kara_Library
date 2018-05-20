@@ -22,7 +22,6 @@ public class Library {
 			System.out.println("It workedddd1!!!!");
 		} catch (FileNotFoundException e) {
 			System.out.println("It did not work :( ");
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		in.useDelimiter("\\n");
@@ -34,7 +33,7 @@ public class Library {
 		try {
 			in = new Scanner(new File("src/main/students.txt"));
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
+			System.out.println("The students.txt file was not found");
 			e.printStackTrace();
 		}
 		while(in.hasNext()) {

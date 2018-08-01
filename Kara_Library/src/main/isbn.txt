@@ -375,38 +375,6 @@ Nah
 Nah 
 Magic Treehouse 
 0
-Just A Dream
-Chris
-Allsburg
-Environment
-Nah
-Nah 
-Environment  
-0
-Why Should I Recycle?
-Jen
-Green
-Environment
-Nah
-Nah 
-Environment  
-0
-Help Me Say Goodbye
-Janis
-Silverman
-Personal
-Nah
-Nah 
-Personal  
-0
-Eat Healthy, Feel Great
-William
-Sears
-Personal
-Nah
-Nah 
-Personal  
-0
 The Lost Summer
 Louisa
 Alcott
@@ -415,145 +383,9 @@ Nah
 Nah 
 Classic  
 0
-Sees Starts
-Nancy
-White
-The Magic School Bus
-Nah
-Nah 
-The Magic School Bus 
-0
-Plants Seed
-Nancy
-White
-The Magic School Bus
-Nah
-Nah	 
-The Magic School Bus 
-0
-Gets All Dried Up
-Nancy
-White
-The Magic School Bus
-Nah
-Nah 
-The Magic School Bus 
-0
-Gets Eaten
-Nancy
-White
-The Magic School Bus
-Nah
-Nah 
-The Magic School Bus 
-0
-Butterfly And The Bog Beast
-Nancy
-White
-The Magic School Bus
-Nah
-Nah 
-The Magic School Bus 
-0
-The Ugly Duckling
-Patito
-Feo
-Multilingual
-Nah
-Nah 
-Multilingual  
-0
-The World's Best Fairy Tales
-Reader's
-Digest
-Fairy Tales
-Nah
-Fairy Tales 
-Nah  
-0
-Banner In The Sky
-James
-Ullman
-Unknown
-Nah
-Unknown
-Nah  
-0
-Diary Of A Wimpy
-Jeff
-Kinney
-Unknown
-Nah
-Unknown
-Nah  
-0
-The Secret Garden
-Frances
-Burnett
-Unknown
-Nah
-Unknown
-Nah  
-0
-How To Train Your Dragon Book 1
-Cressida
-Cowell
-Unknown
-Nah
-Unknown
-Nah  
-0
-Hatchet
-Gary
-Paulsen
-Unknown
-Nah
-Unknown
-Nah  
-0
-Jeremy Fink And The Meaning Of Life
-Wendy
-Mass
-Unknown
-Nah
-Unknown
-Nah  
-0
-The Runaway Bunny
-Margaret
-Brown
-Unknown
-Nah
-Unknown
-Nah  
-0
 The Book Of Dragons
 E.
 Nesbit
-Unknown
-Nah
-Unknown
-Nah  
-0
-Johnny Tremain
-Esther
-Forbes
-Unknown
-Nah
-Unknown
-Nah  
-0
-The Red Badge Of Courage
-Stephen
-Crane
-Unknown
-Nah
-Unknown
-Nah  
-0
-My Side Of The Mountain
-Jean
-George
 Unknown
 Nah
 Unknown
@@ -567,14 +399,6 @@ Nah
 Unknown
 Nah  
 0
-The Chimney Witches
-Victoria
-Whitehead
-Unknown
-Nah
-Unknown
-Nah  
-0
 The First Year Of Teaching
 Pearl
 Kane
@@ -583,81 +407,9 @@ Nah
 Unknown
 Nah  
 0
-Ellie McDoodle New Kid In School
-Ruth
-Barshaw
-Unknown
-Nah
-Unknown
-Nah  
-0
-Labrador On The Lawn
-Ben
-Baglio
-Unknown
-Nah
-Unknown
-Nah  
-0
-Doggie Dreams
-Julia
-DeVillers
-Unknown
-Nah
-Unknown
-Nah  
-0
-The Cold And Hot Winte
-Johanna
-Hurwitz
-Unknown
-Nah
-Unknown
-Nah  
-0
-The Enemy Above
-Michael
-Spradlin
-Unknown
-Nah
-Unknown
-Nah  
-0
-A Single Shard
-Linda
-Park
-Unknown
-Nah
-Unknown
-Nah  
-0
-The Silver Pencil
-Alice
-Dalgliesh
-Unknown
-Nah
-Unknown
-Nah  
-0
 Around The World In Eighty Days
 Jules
 Verne
-Unknown
-Nah
-Unknown
-Nah  
-0
-The World According To Humphrey
-Betty
-Birney
-Unknown
-Nah
-Unknown
-Nah  
-0
-The Day The Crayons Quit
-Drew
-Daywalt
 Unknown
 Nah
 Unknown
@@ -1990,3 +1742,275 @@ Multilingual
 Nah
 Nah 
 Multilingual  
+9780811844550
+The Ugly Duckling
+Merce
+Bas
+Multilingual
+Nah
+Nah 
+Multilingual  
+9780764131554
+Why Should I Recycle?
+Jen
+Green
+Environment
+Nah
+Nah 
+Environment  
+9780547520261
+Just A Dream
+Chris
+Allsburg
+Environment
+Nah
+Nah 
+Environment  
+9780590508346
+Butterfly And The Bog Beast
+Nancy
+White
+The Magic School Bus
+Nah
+Nah 
+The Magic School Bus 
+9780590484145
+Gets Eaten
+Nancy
+White
+The Magic School Bus
+Nah
+Nah 
+The Magic School Bus 
+9780590508315
+Gets All Dried Up
+Nancy
+White
+The Magic School Bus
+Nah
+Nah 
+The Magic School Bus 
+9780590222969
+Plants Seed
+Nancy
+White
+The Magic School Bus
+Nah
+Nah	 
+The Magic School Bus 
+9780590187329
+Sees Stars
+Nancy
+White
+The Magic School Bus
+Nah
+Nah 
+The Magic School Bus 
+9781577490852
+Help Me Say Goodbye
+Janis
+Silverman
+Personal
+Nah
+Nah 
+Personal  
+9780316787086
+Eat Healthy, Feel Great
+William
+Sears
+Personal
+Nah
+Nah 
+Personal  
+9780061241307
+Mommy's Best Kisses
+Margaret
+Anastas
+Nah
+Nah
+Nah
+Nah
+9780895770769
+The World's Best Fairy Tales
+Reader's
+Digest
+Fairy Tales
+Nah
+Fairy Tales 
+Nah  
+9780316058490
+Jeremy Fink And The Meaning Of Life
+Wendy
+Mass
+Unknown
+Nah
+Unknown
+Nah  
+9781416936473
+Hatchet
+Gary
+Paulsen
+Unknown
+Nah
+Unknown
+Nah  
+9780316085274
+How To Train Your Dragon Book 1
+Cressida
+Cowell
+Unknown
+Nah
+Unknown
+Nah  
+9781453063170
+The Secret Garden
+Frances
+Burnett
+Unknown
+Nah
+Unknown
+Nah  
+9780810993136
+Diary Of A Wimpy Kid
+Jeff
+Kinney
+Unknown
+Nah
+Unknown
+Nah  
+9780064470483
+Banner In The Sky
+James
+Ullman
+Unknown
+Nah
+Unknown
+Nah  
+9780061074295
+The Runaway Bunny
+Margaret
+Brown
+Unknown
+Nah
+Unknown
+Nah  
+9780399255373
+The Day The Crayons Quit
+Drew
+Daywalt
+Unknown
+Nah
+Unknown
+Nah  
+9780060210984
+All the Places to Love
+Patricia
+MacLachlan
+Nah
+Nah
+Nah
+Nah
+9780142403525
+The World According To Humphrey
+Betty
+Birney
+Unknown
+Nah
+Unknown
+Nah  
+9780140620320
+Around the World in Eighty Days
+Jules
+Verne
+Nah
+Nah
+Nah
+Nah
+9780140347920
+The Silver Pencil
+Alice
+Dalgliesh
+Unknown
+Nah
+Unknown
+Nah  
+9780440418511
+A Single Shard
+Linda
+Park
+Unknown
+Nah
+Unknown
+Nah  
+9780545857826
+The Enemy Above
+Michael
+Spradlin
+Unknown
+Nah
+Unknown
+Nah  
+9780525355304
+My Side Of The Mountain
+Jean
+George
+Unknown
+Nah
+Unknown
+Nah  
+9780590426190
+The Cold And Hot Winter
+Johanna
+Hurwitz
+Unknown
+Nah
+Unknown
+Nah  
+9780967890609
+Doggie Dreams
+Julia
+DeVillers
+Unknown
+Nah
+Unknown
+Nah  
+9780439684880
+Labrador On The Lawn
+Ben
+Baglio
+Unknown
+Nah
+Unknown
+Nah  
+9780812504798
+The Red Badge Of Courage
+Stephen
+Crane
+Unknown
+Nah
+Unknown
+Nah  
+9781599903613
+Ellie McDoodle New Kid In School
+Ruth
+Barshaw
+Unknown
+Nah
+Unknown
+Nah  
+9780531083079
+The Chimney Witches
+Victoria
+Whitehead
+Unknown
+Nah
+Unknown
+Nah  
+9780440942504
+Johnny Tremain
+Esther
+Forbes
+Unknown
+Nah
+Unknown
+Nah  

@@ -6,14 +6,6 @@ Genre
 Grade
 Subject 
 Description  
-9780399257629
-Thank you, Mr. Falker
-Patricia
-Polacco
-Picture Books, Juvenile works, Fiction, Juvenile fiction
-3-5
-Unknown 
-In this autobiographical story, Little Trisha, overjoyed at the thought of learning how to read struggles when she finds that all the letters and numbers get jumbled up. Her classmates make matters worse by calling her "dummy." Finally, in fifth grade, she is lucky enough to have a teacher who recognizes Trisha's incredible artistic ability, understands her problem, and takes the time to lead her to the magic of reading. 
 9780590411455
 The Little Red Hen
 Lucinda
@@ -95,62 +87,6 @@ Mystery
 While picnicking on Squaw Island, Dink, Josh, and Ruth Rose find a hundred-dollar bill, and when they return to explore further they find an entire cave full of money. 
 Mystery  
 0
-When Will This Cruel War Be Over?
-Barry
-Denenberg
-Dear America
-Nah
-Nah 
-Dear America 
-0
-Duck At The Door
-Jackie
-Urbanovic
-High Quality
-Nah
-High Quality 
-Nah  
-0
-Helen Keller A Determined Life
-Elizabeth
-MacLeod
-Biography
-Nah
-Biography 
-Nah  
-0
-Do Plants Eat Meat
-Southwestern
-Southwester
-Animals
-Nah
-Animals 
-Nah  
-0
-Princess Adventure Stories
-Disney
-Multiple
-Disney
-Nah
-Disney 
-Nah  
-0
-Aladdin Adventure In The Cave Of Wonders
-Disney
-Disney
-Disney
-Nah
-Disney 
-Nah  
-0
-Alice In Wonderland
-Disney
-Disney
-Disney
-Nah
-Disney 
-Nah  
-0
 Lady And The Tramp
 Disney
 Disney
@@ -165,462 +101,6 @@ Disney
 Disney
 Nah
 Disney 
-Nah  
-0
-Beauty And The Beast Friends Are Sweet
-Disney
-Disney
-Disney
-Nah
-Disney 
-Nah  
-0
-Magical Moments
-Disney
-Disney
-Disney
-Nah
-Disney 
-Nah  
-0
-Cam Jansen And The Wedding Cake Mystery
-David
-Adler
-Easy Reader
-Nah
-Nah 
-Easy Reader 
-0
-Pony Crazy
-Catherine
-Mapka
-Easy Reader
-Nah
-Nah 
-Easy Reader 
-0
-Just Helping My Dad
-Mercer
-Mayer
-Easy Reader
-Nah
-Nah 
-Easy Reader 
-0
-Pete At The Beach
-James
-Dean
-Easy Reader
-Nah
-Nah 
-Easy Reader 
-0
-Drop It, Rocket!
-Tad
-HIlls
-Easy Reader
-Nah
-Nah 
-Easy Reader 
-0
-These Are The Avengers
-Marvel
-Marvel
-Easy Reader
-Nah
-Nah 
-Easy Reader 
-0
-Thumbelina
-Barbie
-Barbie
-Easy Reader
-Nah
-Nah 
-Easy Reader 
-0
-I LIke Bugs
-Margaret
-Brown
-Easy Reader
-Nah
-Nah 
-Easy Reader 
-0
-Fancy Nancy And The Boy From Paris
-Jane
-O'Connor
-Easy Reader
-Nah
-Nah 
-Easy Reader 
-0
-Play Ball, Amelia Bedelia
-Peggy
-Parish
-Easy Reader
-Nah
-Nah 
-Easy Reader 
-0
-Amelia Bedelia Makes A Friend
-Herman
-Parish
-Easy Reader
-Nah
-Nah 
-Easy Reader 
-0
-Teach Us, Amedlia Bedelia
-Peggy
-Parish
-Easy Reader
-Nah
-Nah 
-Easy Reader 
-0
-Come Back, Amelia Bedelia
-Peggy
-Parish
-Easy Reader
-Nah
-Nah 
-Easy Reader 
-0
-Young Cam Jansen And The Library Mystery
-David
-Adler
-Easy Reader
-Nah
-Nah 
-Easy Reader 
-0
-Young Cam Jansen And The Missing Cookie
-David
-Adler
-Easy Reader
-Nah
-Nah 
-Easy Reader 
-0
-Yeh-Shen A Cinderella Story From China
-Ai-Ling
-Louie
-Cinderella
-Nah
-Nah 
-Cinderella  
-0
-Cinder-elly
-Frances
-Minters
-Cinderella
-Nah
-Nah 
-Cinderella  
-0
-Cinderella Penguin
-Janet
-Perlman
-Cinderella
-Nah
-Nah 
-Cinderella  
-0
-Cinderelephant
-Emma
-Dodd
-Cinderella
-Nah
-Nah 
-Cinderella  
-0
-Bigfoot Cinderrrrrella
-Tony
-Johnston
-Cinderella
-Nah
-Nah 
-Cinderella  
-0
-Mufaro's Beautiful Daughters
-John
-Steptoe
-Cultural
-Nah
-Nah 
-Cultural  
-0
-Festivals Of The World China
-Colin
-Cheong
-Around The World
-Nah
-Nah 
-Around The World 
-0
-The First Day Of Winter
-Denise
-Fleming
-Seasons
-Nah
-Nah 
-Seasons  
-0
-A Ghost Tale For Chirstmas Time
-Mary
-Osborne
-Magic Treehouse
-Nah
-Nah 
-Magic Treehouse 
-0
-The Lost Summer
-Louisa
-Alcott
-Classic
-Nah
-Nah 
-Classic  
-0
-The Book Of Dragons
-E.
-Nesbit
-Unknown
-Nah
-Unknown
-Nah  
-0
-Alice In Wonderland
-Lewis
-Carroll
-Unknown
-Nah
-Unknown
-Nah  
-0
-The First Year Of Teaching
-Pearl
-Kane
-Unknown
-Nah
-Unknown
-Nah  
-0
-Around The World In Eighty Days
-Jules
-Verne
-Unknown
-Nah
-Unknown
-Nah  
-0
-Aesop's Fables
-Ann
-McGovern
-Unknown
-Nah
-Unknown
-Nah  
-0
-The Sea Dog
-Jenny
-Dale
-Unknown
-Nah
-Unknown
-Nah  
-0
-Trouble River
-Betsy
-Byars
-Unknown
-Nah
-Unknown
-Nah  
-0
-Gone-Away Lake
-Elizabeth
-Enright
-Unknown
-Nah
-Unknown
-Nah  
-0
-The Westing Game
-Ellen
-Raskin
-Unknown
-Nah
-Unknown
-Nah  
-0
-The Homework Machine
-Dan
-Gutman
-Unknown
-Nah
-Unknown
-Nah  
-0
-To The Stars, Isabelle
-Laurence
-Yep
-Unknown
-Nah
-Unknown
-Nah  
-0
-Summer Wth Elisa
-Johanna
-Hurwitz
-Unknown
-Nah
-Unknown
-Nah  
-0
-The Hideout
-Peg
-Kehret
-Unknown
-Nah
-Unknown
-Nah  
-0
-Beardance
-Will
-Hobbs
-Unknown
-Nah
-Unknown
-Nah  
-0
-Never Say Die
-Will
-Hobbs
-Unknown
-Nah
-Unknown
-Nah  
-0
-In The Stone Circle
-Elizabeth
-Kimmel
-Unknown
-Nah
-Unknown
-Nah  
-0
-The Secret In The Woods
-Lois
-Leppard
-Unknown
-Nah
-Unknown
-Nah  
-0
-Miracles On Maple Hill
-Virginia
-Sorensen
-Unknown
-Nah
-Unknown
-Nah  
-0
-No Dogs Allowed!
-Bill
-Wallace
-Unknown
-Nah
-Unknown
-Nah  
-0
-Dream Factory
-Brad
-Barkley
-Unknown
-Nah
-Unknown
-Nah  
-0
-Cinderella (As If You Didn't Already Know The Story)
-Barbara
-Ensor
-Unknown
-Nah
-Unknown
-Nah  
-0
-Wringer
-Jerry
-Spinelli
-Unknown
-Nah
-Unknown
-Nah  
-0
-Pup At The Palace
-Ben
-Baglio
-Unknown
-Nah
-Unknown
-Nah  
-0
-Keeping Safe The Stars
-Sheila
-O'Connor
-Unknown
-Nah
-Unknown
-Nah  
-0
-Definitely Cool
-Brenda
-Wilkinson
-Unknown
-Nah
-Unknown
-Nah  
-0
-Love Letters
-Christie
-Wells
-Unknown
-Nah
-Unknown
-Nah  
-0
-The Stranger
-Albert
-Camus
-Unknown
-Nah
-Unknown
-Nah  
-0
-Beauty And The Beast
-Robyn
-Bryant
-Unknown
-Nah
-Unknown
-Nah  
-0
-Charlotte's Web
-E.B.
-White
-Unknown
-Nah
-Unknown
-Nah  
-0
-Evil On The Bayou
-Richie
-Cusick
-Unknown
-Nah
-Unknown
 Nah  
 9780060540241
 Heartbeat
@@ -766,14 +246,6 @@ Poetry
 Nah
 Nah 
 Poetry  
-0
-Touching Spirit Bear
-Ben
-Mikaelsen
-Unknown
-Nah
-Unknown
-Nah  
 9780060292652
 Earthshake
 Lisa
@@ -1239,14 +711,6 @@ Nah
 Non-Fiction 
 Nah  
 0
-TinkerBell And The Great Fairy Rescue
-Kimberly
-Morris
-High Quality
-Nah
-High Quality 
-Nah  
-0
 Rumpelstiltskin
 Jakob
 Grimm
@@ -1264,14 +728,6 @@ Disney
 Nah  
 0
 Peter Pan
-Disney
-Disney
-Disney
-Nah
-Disney 
-Nah  
-0
-Lady And The Tramp
 Disney
 Disney
 Disney
@@ -1304,14 +760,6 @@ Disney
 Nah  
 0
 Pinocchio
-Disney
-Disney
-Disney
-Nah
-Disney 
-Nah  
-0
-101 Dalmatians
 Disney
 Disney
 Disney
@@ -2013,4 +1461,596 @@ Forbes
 Unknown
 Nah
 Unknown
+Nah  
+9780590438803
+Aesop's Fables
+Ann
+McGovern
+Unknown
+Nah
+Unknown
+Nah  
+9780439218146
+The Sea Dog
+Jenny
+Dale
+Unknown
+Nah
+Unknown
+Nah  
+9780140342437
+Trouble River
+Betsy
+Byars
+Unknown
+Nah
+Unknown
+Nah  
+9780152022723
+Gone-Away Lake
+Elizabeth
+Enright
+Unknown
+Nah
+Unknown
+Nah  
+9780375873874
+Cinderella (As If You Didn't Already Know The Story)
+Barbara
+Ensor
+Unknown
+Nah
+Unknown
+Nah  
+9780439412810
+The Westing Game
+Ellen
+Raskin
+Unknown
+Nah
+Unknown
+Nah  
+9780142427583
+Keeping Safe The Stars
+Sheila
+O'Connor
+Unknown
+Nah
+Unknown
+Nah  
+9780689876790
+The Homework Machine
+Dan
+Gutman
+Unknown
+Nah
+Unknown
+Nah  
+9780816728794
+The Book Of Dragons
+E.
+Nesbit
+Unknown
+Nah
+Unknown
+Nah  
+9781589254749
+Harry the Homeless Puppy
+Holly
+Webb
+Nah
+Nah
+Nah
+Nah
+9780394848280
+Dracula
+Stephanie
+Spinner
+Nah
+Nah
+Nah
+Nah
+9780690462531
+John Billington: Friend of Squanto
+Clyde
+Bulla
+Nah
+Nah
+Nah
+Nah
+9780440924319
+Evil On The Bayou
+Richie
+Cusick
+Unknown
+Nah
+Unknown
+Nah  
+9780439343916
+Pup At The Palace
+Ben
+Baglio
+Unknown
+Nah
+Unknown
+Nah  
+9780064405782
+Wringer
+Jerry
+Spinelli
+Unknown
+Nah
+Unknown
+Nah  
+9780142412985
+Dream Factory
+Brad
+Barkley
+Unknown
+Nah
+Unknown
+Nah  
+9781416903819
+No Dogs Allowed!
+Bill
+Wallace
+Unknown
+Nah
+Unknown
+Nah  
+9780152047184
+Miracles On Maple Hill
+Virginia
+Sorensen
+Unknown
+Nah
+Unknown
+Nah  
+9780553487176
+The Secret In The Woods
+Lois
+Leppard
+Unknown
+Nah
+Unknown
+Nah  
+9780439062596
+In The Stone Circle
+Elizabeth
+Kimmel
+Unknown
+Nah
+Unknown
+Nah  
+9780380805600
+Touching Spirit Bear
+Ben
+Mikaelsen
+Nah
+Nah
+Nah
+Nah
+9780061708800
+Never Say Die
+Will
+Hobbs
+Unknown
+Nah
+Unknown
+Nah  
+9780689870729
+Beardance
+Will
+Hobbs
+Unknown
+Nah
+Unknown
+Nah  
+9780671034214
+The Hideout
+Peg
+Kehret
+Unknown
+Nah
+Unknown
+Nah  
+9780439280297
+Summer Wth Elisa
+Johanna
+Hurwitz
+Unknown
+Nah
+Unknown
+Nah  
+9781609583736
+To The Stars, Isabelle
+Laurence
+Yep
+Unknown
+Nah
+Unknown
+Nah  
+9781609583729
+Designs by Isabelle
+Laurence
+Yep
+Nah
+Nah
+Nah
+Nah
+09780061124952
+Charlotte's Web
+E.B.
+White
+Unknown
+Nah
+Unknown
+Nah  
+9780679720201
+The Stranger
+Albert
+Camus
+Unknown
+Nah
+Unknown
+Nah  
+9780590438421
+Definitely Cool
+Brenda
+Wilkinson
+Unknown
+Nah
+Unknown
+Nah  
+9780816715053
+Love Letters
+Christie
+Wells
+Unknown
+Nah
+Unknown
+Nah  
+9780399257629
+Thank you, Mr. Falker
+Patricia
+Polacco
+Picture Books, Juvenile works, Fiction, Juvenile fiction
+3-5
+Unknown 
+In this autobiographical story, Little Trisha, overjoyed at the thought of learning how to read struggles when she finds that all the letters and numbers get jumbled up. Her classmates make matters worse by calling her "dummy." Finally, in fifth grade, she is lucky enough to have a teacher who recognizes Trisha's incredible artistic ability, understands her problem, and takes the time to lead her to the magic of reading. 
+0
+When Will This Cruel War Be Over?
+Barry
+Denenberg
+Dear America
+Nah
+Nah 
+Dear America 
+0
+Duck At The Door
+Jackie
+Urbanovic
+High Quality
+Nah
+High Quality 
+Nah  
+0
+Helen Keller A Determined Life
+Elizabeth
+MacLeod
+Biography
+Nah
+Biography 
+Nah  
+0
+Do Plants Eat Meat
+Southwestern
+Southwester
+Animals
+Nah
+Animals 
+Nah  
+0
+Princess Adventure Stories
+Disney
+Multiple
+Disney
+Nah
+Disney 
+Nah  
+0
+Aladdin Adventure In The Cave Of Wonders
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah  
+0
+Cam Jansen And The Wedding Cake Mystery
+David
+Adler
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Beauty And The Beast Friends Are Sweet
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah  
+0
+I LIke Bugs
+Margaret
+Brown
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Pete At The Beach
+James
+Dean
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Drop It, Rocket!
+Tad
+HIlls
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Magical Moments
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah  
+0
+These Are The Avengers
+Marvel
+Marvel
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Play Ball, Amelia Bedelia
+Peggy
+Parish
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Just Helping My Dad
+Mercer
+Mayer
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Pony Crazy
+Catherine
+Mapka
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Amelia Bedelia Makes A Friend
+Herman
+Parish
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Teach Us, Amedlia Bedelia
+Peggy
+Parish
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Fancy Nancy And The Boy From Paris
+Jane
+O'Connor
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Come Back, Amelia Bedelia
+Peggy
+Parish
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Alice In Wonderland
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah  
+0
+Young Cam Jansen And The Library Mystery
+David
+Adler
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Young Cam Jansen And The Missing Cookie
+David
+Adler
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Cinderella Penguin
+Janet
+Perlman
+Cinderella
+Nah
+Nah 
+Cinderella  
+0
+Cinder-elly
+Frances
+Minters
+Cinderella
+Nah
+Nah 
+Cinderella  
+0
+The First Day Of Winter
+Denise
+Fleming
+Seasons
+Nah
+Nah 
+Seasons  
+0
+Mufaro's Beautiful Daughters
+John
+Steptoe
+Cultural
+Nah
+Nah 
+Cultural  
+0
+Thumbelina
+Barbie
+Barbie
+Easy Reader
+Nah
+Nah 
+Easy Reader 
+0
+Cinderelephant
+Emma
+Dodd
+Cinderella
+Nah
+Nah 
+Cinderella  
+0
+Festivals Of The World China
+Colin
+Cheong
+Around The World
+Nah
+Nah 
+Around The World 
+0
+Bigfoot Cinderrrrrella
+Tony
+Johnston
+Cinderella
+Nah
+Nah 
+Cinderella  
+0
+Yeh-Shen A Cinderella Story From China
+Ai-Ling
+Louie
+Cinderella
+Nah
+Nah 
+Cinderella  
+0
+A Ghost Tale For Chirstmas Time
+Mary
+Osborne
+Magic Treehouse
+Nah
+Nah 
+Magic Treehouse 
+0
+Alice In Wonderland
+Lewis
+Carroll
+Unknown
+Nah
+Unknown
+Nah  
+0
+The Lost Summer
+Louisa
+Alcott
+Classic
+Nah
+Nah 
+Classic  
+0
+101 Dalmatians
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah  
+0
+Beauty And The Beast
+Robyn
+Bryant
+Unknown
+Nah
+Unknown
+Nah  
+0
+The First Year Of Teaching
+Pearl
+Kane
+Unknown
+Nah
+Unknown
+Nah  
+0
+Around The World In Eighty Days
+Jules
+Verne
+Unknown
+Nah
+Unknown
+Nah  
+1
+Lady And The Tramp
+Disney
+Disney
+Disney
+Nah
+Disney 
+Nah  
+9780380805600
+Touching Spirit Bear
+Ben
+Mikaelsen
+Unknown
+Nah
+Unknown
+Nah  
+0
+TinkerBell And The Great Fairy Rescue
+Kimberly
+Morris
+High Quality
+Nah
+High Quality 
 Nah  
